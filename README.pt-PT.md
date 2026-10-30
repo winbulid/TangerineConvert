@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="Integração contínua"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Versão mais recente"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="Descargas"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Para reverter a alteração, remove as entradas em Segurança do Windows → Con
 | **Vetores geoespaciais**: Shapefile, GeoJSON, KML, KMZ, GPX<br>CSV com coordenadas | conversão entre estes formatos e CSV / XLSX / JSON;<br>os dados projetados (UTM, Web Mercator, Lambert, Albers) são convertidos em longitude / latitude WGS 84 |
 
 Os formatos sem marca funcionam de imediato, sem Office, Hancom Office ou LibreOffice.
-Os formatos marcados precisam de um motor opcional, transferido apenas quando necessário: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([detalhes](docs/ENGINES.md)).
 
 ## Linha de comandos
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[Arquitetura](docs/ARCHITECTURE.md) · [Motores](docs/ENGINES.md) · [Adicionar um conversor](docs/ADDING-A-CONVERTER.md) · [Adicionar um idioma](docs/ADDING-A-LANGUAGE.md) · [Contribuir](CONTRIBUTING.md)
 
 Os pull requests são bem-vindos.
-Se o Tangerine te poupa alguns cliques, uma ⭐ ajuda outras pessoas a descobri-lo.
 
 ## Política de assinatura de código
 

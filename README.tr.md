@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Son sürüm"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="İndirmeler"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Geri almak için Windows Güvenliği → Uygulama ve tarayıcı denetimi → Aç
 | **Coğrafi Vektörler**: Shapefile, GeoJSON, KML, KMZ, GPX<br>Koordinatlı CSV; Garmin FIT okunabilir | birbirleri arasında ve CSV / XLSX / JSON;<br>projeksiyonlu veriler (UTM, Web Mercator, Lambert, Albers) WGS 84 boylam / enlem olarak çıkar |
 
 İşaretsiz formatlar Office, Hancom Office veya LibreOffice olmadan doğrudan çalışır.
-İşaretliler yalnızca ihtiyaç duyulduğunda indirilen isteğe bağlı bir motora ihtiyaç duyar: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([ayrıntılar](docs/ENGINES.md)).
 
 ## Komut satırı
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[Mimari](docs/ARCHITECTURE.md) · [Motorlar](docs/ENGINES.md) · [Dönüştürücü ekleme](docs/ADDING-A-CONVERTER.md) · [Dil ekleme](docs/ADDING-A-LANGUAGE.md) · [Katkıda bulunma](CONTRIBUTING.md)
 
 Katkılarınızı (Pull Request) memnuniyetle karşılıyoruz.
-Tangerine size birkaç tıklama kazandırdıysa, bir ⭐ vermek başkalarının da keşfetmesine yardımcı olur.
 
 ## Kod imzalama politikası
 

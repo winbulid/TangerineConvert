@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="最新版本"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="下載次數"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **地理資訊（向量）** Shapefile、GeoJSON、KML、KMZ、GPX<br>帶座標的 CSV，<br>Garmin FIT 僅讀取 | 互相轉換、CSV / XLSX / JSON，<br>投影座標系統（UTM、Web 麥卡托、蘭伯特、阿爾伯斯）會轉換為 WGS 84 經緯度 |
 
 未標註的格式裝好即用，無需 Office、韓文文書軟體或 LibreOffice。
-標註的格式需要可選引擎，只在需要時下載，分別是 ¹ Ghostscript、² LibreOffice、³ Pandoc、⁴ calibre、⁵ FFmpeg（[詳情](docs/ENGINES.md)）。
 
 ## 命令列
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[架構](docs/ARCHITECTURE.md) · [引擎](docs/ENGINES.md) · [新增轉換器](docs/ADDING-A-CONVERTER.md) · [新增語言](docs/ADDING-A-LANGUAGE.md) · [貢獻指南](CONTRIBUTING.md)
 
 歡迎提交 Pull Request。
-如果 Tangerine 幫你省了時間，給個 ⭐ 星號能讓更多人發現它。
 
 ## 程式碼簽章政策
 

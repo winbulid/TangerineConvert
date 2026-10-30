@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="เวอร์ชันล่าสุด"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="ยอดดาวน์โหลด"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **ข้อมูลเวกเตอร์เชิงพื้นที่**: Shapefile, GeoJSON, KML, KMZ, GPX<br>CSV พร้อมพิกัด;<br>อ่าน Garmin FIT | แปลงสลับกันได้ และเป็น CSV / XLSX / JSON<br>โดยพิกัดโปรเจกชัน (UTM, Web Mercator, Lambert, Albers) จะถูกแปลงเป็น WGS 84 ลองจิจูด/ละติจูด |
 
 ฟอร์แมตที่ไม่มีเครื่องหมายสามารถใช้งานได้ทันทีโดยไม่ต้องติดตั้งซอฟต์แวร์เสริม<br>
-ฟอร์แมตที่มีเครื่องหมายกำกับต้องการเครื่องมือเสริม ซึ่งจะดาวน์โหลดเมื่อจำเป็นเท่านั้น: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg (ดู [รายละเอียด](docs/ENGINES.md))
 
 ## การใช้งานผ่านบรรทัดคำสั่ง (Command line)
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-ดูเพิ่มเติม: [สถาปัตยกรรม (Architecture)](docs/ARCHITECTURE.md) · [เครื่องมือแปลงไฟล์ (Engines)](docs/ENGINES.md) · [การเพิ่มตัวแปลงไฟล์ (Adding a converter)](docs/ADDING-A-CONVERTER.md) · [การเพิ่มภาษา (Adding a language)](docs/ADDING-A-LANGUAGE.md) · [การมีส่วนร่วม (Contributing)](CONTRIBUTING.md)
 
 ยินดีรับ Pull Request เสมอ!
-หาก Tangerine ช่วยประหยัดเวลาของคุณ การกด ⭐ ให้กับโครงการจะช่วยให้ผู้อื่นค้นพบได้ง่ายขึ้น
 
 ## นโยบายการลงนามรหัส (Code signing)
 

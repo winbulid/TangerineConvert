@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="最新リリース"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="ダウンロード数"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -170,7 +169,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **地理空間ベクターデータ**：Shapefile、GeoJSON、KML、KMZ、GPX<br>座標付きのCSV。<br>Garmin FITは読み込みのみ | 相互変換、CSV/XLSX/JSON。<br>投影座標系（UTM、Webメルカトル、ランベルト、アルベルス）のデータはWGS 84の経度/緯度で出力 |
 
 印のない形式は、Office、Hancom Office、LibreOfficeなしですぐに使えます。
-印のある形式には追加の変換エンジンが必要で、必要なときにだけダウンロードされます：¹ Ghostscript、² LibreOffice、³ Pandoc、⁴ calibre、⁵ FFmpeg（[詳細](docs/ENGINES.md)）。
 
 ## コマンドライン
 
@@ -196,10 +194,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[アーキテクチャ](docs/ARCHITECTURE.md) · [エンジン](docs/ENGINES.md) · [コンバーターの追加](docs/ADDING-A-CONVERTER.md) · [言語の追加](docs/ADDING-A-LANGUAGE.md) · [コントリビューション](CONTRIBUTING.md)
 
 プルリクエスト歓迎です。
-Tangerineで手間が省けたら、⭐をつけていただけると、ほかの人がTangerineを見つけやすくなります。
 
 ## コード署名ポリシー
 

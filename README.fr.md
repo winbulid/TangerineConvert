@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Dernière version"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="Téléchargements"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Pour annuler, supprimez ces entrées dans Sécurité Windows → Contrôle des a
 | **Données géospatiales vectorielles** : Shapefile, GeoJSON, KML, KMZ, GPX<br>CSV avec coordonnées ;<br>Garmin FIT en lecture | entre eux et CSV / XLSX / JSON ;<br>les données projetées (UTM, Web Mercator, Lambert, Albers) sortent en longitude / latitude WGS 84 |
 
 Les formats sans marque fonctionnent d'emblée, sans Office, Hancom Office ni LibreOffice.
-Les formats marqués nécessitent un moteur facultatif, téléchargé seulement en cas de besoin : ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([détails](docs/ENGINES.md)).
 
 ## Ligne de commande
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[Architecture](docs/ARCHITECTURE.md) · [Moteurs](docs/ENGINES.md) · [Ajouter un convertisseur](docs/ADDING-A-CONVERTER.md) · [Ajouter une langue](docs/ADDING-A-LANGUAGE.md) · [Contribuer](CONTRIBUTING.md)
 
 Les pull requests sont les bienvenues.
-Si Tangerine vous épargne quelques clics, une ⭐ aide d'autres personnes à le découvrir.
 
 ## Politique de signature du code
 

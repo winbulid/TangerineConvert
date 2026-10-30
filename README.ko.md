@@ -17,7 +17,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="최신 릴리스"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="다운로드 수"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -168,7 +167,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **지리 정보(벡터)**: Shapefile, GeoJSON, KML, KMZ, GPX<br>좌표가 있는 CSV;<br>Garmin FIT는 읽기 | 서로 변환, CSV·XLSX·JSON;<br>투영 좌표계(UTM, 웹 메르카토르, 람베르트, 알버스)는 WGS 84 경위도로 변환 |
 
 표시가 없는 형식은 오피스·한컴오피스·LibreOffice 없이 바로 변환돼요.
-표시가 있는 형식은 추가 엔진이 필요하고, 필요할 때만 내려받아요: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([자세히](docs/ENGINES.md)).
 
 ## 명령줄
 
@@ -194,10 +192,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[구조](docs/ARCHITECTURE.md) · [엔진](docs/ENGINES.md) · [변환기 추가](docs/ADDING-A-CONVERTER.md) · [언어 추가](docs/ADDING-A-LANGUAGE.md) · [기여 안내](CONTRIBUTING.md)
 
 PR 환영해요.
-Tangerine가 쓸만하다면 ⭐ 하나가 다른 사람들이 Tangerine를 찾는 데 도움이 돼요.
 
 ## 코드 서명 정책
 

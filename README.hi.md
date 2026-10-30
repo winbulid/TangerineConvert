@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="नवीनतम रिलीज़"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="डाउनलोड"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **भू-स्थानिक वेक्टर**: Shapefile, GeoJSON, KML, KMZ, GPX<br>निर्देशांक वाली CSV;<br>Garmin FIT सिर्फ़ पढ़ने के लिए | आपस में और CSV / XLSX / JSON;<br>प्रोजेक्टेड डेटा (UTM, Web Mercator, Lambert, Albers) WGS 84 देशांतर / अक्षांश में बदलकर आता है |
 
 बिना निशान वाले फ़ॉर्मैट तुरंत काम करते हैं, Office, Hancom Office या LibreOffice की ज़रूरत नहीं।
-निशान वाले फ़ॉर्मैट के लिए एक वैकल्पिक इंजन चाहिए, जो ज़रूरत पड़ने पर ही डाउनलोड होता है: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([विवरण](docs/ENGINES.md))।
 
 ## कमांड लाइन
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[आर्किटेक्चर](docs/ARCHITECTURE.md) · [इंजन](docs/ENGINES.md) · [कन्वर्टर जोड़ना](docs/ADDING-A-CONVERTER.md) · [भाषा जोड़ना](docs/ADDING-A-LANGUAGE.md) · [योगदान](CONTRIBUTING.md)
 
 पुल रिक्वेस्ट का स्वागत है।
-अगर Tangerine से आपके कुछ क्लिक बचते हैं, तो एक ⭐ दूसरों को इसे ढूँढने में मदद करता है।
 
 ## कोड साइनिंग नीति
 

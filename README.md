@@ -12,11 +12,9 @@
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>Download</b></a> ·
   <a href="#install">Install</a> ·
   <a href="#command-line">Command line</a> ·
-  <a href="#development">Development</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Latest release"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -118,7 +116,6 @@ Download from [Releases](https://github.com/winbulid/TangerineConvert/releases/l
 | **Geospatial vectors**: Shapefile, GeoJSON, KML, KMZ, GPX<br>CSV with coordinates; Garmin FIT read | each other and CSV / XLSX / JSON;<br>projected data (UTM, Web Mercator, Lambert, Albers) comes out as WGS 84 longitude / latitude |
 
 Unmarked formats work out of the box, without Office, Hancom Office or LibreOffice.
-Marked ones need an optional engine, downloaded only when needed: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([details](docs/ENGINES.md)).
 
 ## Command line
 
@@ -144,10 +141,7 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[Architecture](docs/ARCHITECTURE.md) · [Engines](docs/ENGINES.md) · [Adding a converter](docs/ADDING-A-CONVERTER.md) · [Adding a language](docs/ADDING-A-LANGUAGE.md) · [Contributing](CONTRIBUTING.md)
 
-Pull requests are welcome.
-If Tangerine saves you some clicks, a ⭐ helps other people find it.
 
 ## Code signing policy
 

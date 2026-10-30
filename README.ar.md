@@ -16,7 +16,6 @@
 </p>
 
 <p align="center" dir="ltr">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="أحدث إصدار"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="عدد التنزيلات"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -173,7 +172,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **البيانات الجغرافية المتجهية**: Shapefile, GeoJSON, KML, KMZ, GPX<br>ملفات CSV فيها إحداثيات؛<br>وGarmin FIT للقراءة | فيما بينها، وإلى CSV / XLSX / JSON؛<br>وتُحوَّل البيانات المُسقَطة (UTM, Web Mercator, Lambert, Albers) إلى خطوط الطول والعرض في WGS 84 |
 
 الصيغ غير المعلَّمة تعمل مباشرةً، دون Office أو Hancom Office أو LibreOffice.
-أما المعلَّمة فتحتاج إلى محرك اختياري لا يُنزَّل إلا عند الحاجة: ¹ Ghostscript، ² LibreOffice، ³ Pandoc، ⁴ calibre، ⁵ FFmpeg ([التفاصيل](docs/ENGINES.md)).
 
 ## سطر الأوامر
 
@@ -207,10 +205,8 @@ dotnet test
 
 <div dir="rtl">
 
-[البنية](docs/ARCHITECTURE.md) · [المحركات](docs/ENGINES.md) · [إضافة محوّل](docs/ADDING-A-CONVERTER.md) · [إضافة لغة](docs/ADDING-A-LANGUAGE.md) · [المساهمة](CONTRIBUTING.md)
 
 طلبات الدمج (pull requests) مرحّب بها.
-وإذا وفّر عليك Tangerine بعض النقرات، فنجمة ⭐ تساعد الآخرين على العثور عليه.
 
 ## سياسة توقيع الشيفرة
 

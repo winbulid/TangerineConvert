@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Последний выпуск"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="Загрузки"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
@@ -167,7 +166,6 @@ Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
 | **Геоданные (векторные)**: Shapefile, GeoJSON, KML, KMZ, GPX<br>CSV с координатами;<br>Garmin FIT только чтение | друг в друга и CSV / XLSX / JSON;<br>данные в проекциях (UTM, Web Mercator, Ламберта, Альберса) переводятся в долготу / широту WGS 84 |
 
 Форматы без пометки работают сразу, без Office, Hancom Office и LibreOffice.
-Для помеченных нужен дополнительный движок, который скачивается только при необходимости: ¹ Ghostscript, ² LibreOffice, ³ Pandoc, ⁴ calibre, ⁵ FFmpeg ([подробнее](docs/ENGINES.md)).
 
 ## Командная строка
 
@@ -193,10 +191,8 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-[Архитектура](docs/ARCHITECTURE.md) · [Движки](docs/ENGINES.md) · [Как добавить конвертер](docs/ADDING-A-CONVERTER.md) · [Как добавить язык](docs/ADDING-A-LANGUAGE.md) · [Участие в разработке](CONTRIBUTING.md)
 
 Пул-реквесты приветствуются.
-Если Tangerine экономит вам пару кликов, поставьте ⭐: так другие смогут его найти.
 
 ## Подпись кода
 
