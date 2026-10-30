@@ -15,9 +15,6 @@ public sealed class SoftBackdrop : Control
     public static readonly StyledProperty<Color> AccentProperty =
         AvaloniaProperty.Register<SoftBackdrop, Color>(nameof(Accent), Color.Parse("#F35B28"));
 
-    public static readonly StyledProperty<Color> SecondProperty =
-        AvaloniaProperty.Register<SoftBackdrop, Color>(nameof(Second), Color.Parse("#FF7A47"));
-
     /// <summary>How strong the blobs are (lower in dark mode).</summary>
     public static readonly StyledProperty<double> IntensityProperty =
         AvaloniaProperty.Register<SoftBackdrop, double>(nameof(Intensity), 0.30);
@@ -28,7 +25,7 @@ public sealed class SoftBackdrop : Control
 
     static SoftBackdrop()
     {
-        AffectsRender<SoftBackdrop>(BackgroundProperty, AccentProperty, SecondProperty, IntensityProperty);
+        AffectsRender<SoftBackdrop>(BackgroundProperty, AccentProperty, IntensityProperty);
     }
 
     public SoftBackdrop()
@@ -48,7 +45,6 @@ public sealed class SoftBackdrop : Control
 
     public IBrush? Background { get => GetValue(BackgroundProperty); set => SetValue(BackgroundProperty, value); }
     public Color Accent { get => GetValue(AccentProperty); set => SetValue(AccentProperty, value); }
-    public Color Second { get => GetValue(SecondProperty); set => SetValue(SecondProperty, value); }
     public double Intensity { get => GetValue(IntensityProperty); set => SetValue(IntensityProperty, value); }
 
     public override void Render(DrawingContext context)
@@ -60,7 +56,6 @@ public sealed class SoftBackdrop : Control
         var h = bounds.Height;
         var t = _time;
         Blob(context, Accent, w * (0.18 + 0.06 * Math.Sin(t * 0.21)), h * (0.22 + 0.08 * Math.Cos(t * 0.17)), w * 0.42, Intensity);
-        Blob(context, Second, w * (0.86 + 0.05 * Math.Cos(t * 0.19 + 1.3)), h * (0.80 + 0.07 * Math.Sin(t * 0.23)), w * 0.36, Intensity * 0.75);
         Blob(context, Accent, w * (0.70 + 0.07 * Math.Sin(t * 0.13 + 2.1)), h * (0.12 + 0.06 * Math.Cos(t * 0.29 + 0.7)), w * 0.28, Intensity * 0.6);
     }
 
