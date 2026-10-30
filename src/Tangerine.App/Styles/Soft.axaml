@@ -22,10 +22,10 @@
           <SolidColorBrush x:Key="SuccessBrush" Color="#0F7A5A" />
           <SolidColorBrush x:Key="WarningBrush" Color="#9A5B0C" />
           <BoxShadows x:Key="CardShadow">0 1 3 0 #12000000, 0 6 18 0 #0D000000</BoxShadows>
-          <SolidColorBrush x:Key="AccentBrush" Color="#F35B28" />
+          <SolidColorBrush x:Key="AccentBrush" Color="#FF5200" />
           <SolidColorBrush x:Key="AccentSoftBrush" Color="#2EF35B28" />
           <SolidColorBrush x:Key="AccentFaintBrush" Color="#17F35B28" />
-          <SolidColorBrush x:Key="AccentStrongBrush" Color="#D55223" />
+          <SolidColorBrush x:Key="AccentStrongBrush" Color="#E64A00" />
           <SolidColorBrush x:Key="OnAccentBrush" Color="#FFFFFF" />
           <!-- Plain buttons: the surface with a thin border, so only a disabled control is a flat grey (#524).
                ThemeService gives them a theme's own surface (Material You, theme.json). -->
@@ -48,10 +48,10 @@
           <SolidColorBrush x:Key="SuccessBrush" Color="#5DCAA5" />
           <SolidColorBrush x:Key="WarningBrush" Color="#EF9F27" />
           <BoxShadows x:Key="CardShadow">0 1 3 0 #40000000, 0 8 24 0 #33000000</BoxShadows>
-          <SolidColorBrush x:Key="AccentBrush" Color="#F35B28" />
+          <SolidColorBrush x:Key="AccentBrush" Color="#FF5200" />
           <SolidColorBrush x:Key="AccentSoftBrush" Color="#2EF35B28" />
           <SolidColorBrush x:Key="AccentFaintBrush" Color="#17F35B28" />
-          <SolidColorBrush x:Key="AccentStrongBrush" Color="#FF7A47" />
+          <SolidColorBrush x:Key="AccentStrongBrush" Color="#FF6A1A" />
           <SolidColorBrush x:Key="OnAccentBrush" Color="#FFFFFF" />
           <SolidColorBrush x:Key="ButtonBackground" Color="#262624" />
           <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#3D3833" />
