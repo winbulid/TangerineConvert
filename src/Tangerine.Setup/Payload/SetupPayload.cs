@@ -7,7 +7,7 @@
 // stays at the end of the program, Setup.exe's header stops pointing to it, and the manifest says where it is so the
 // uninstaller written from Setup.exe is signed as well.
 //
-// Trailer: "TANGERINE-PAYLOAD-01", payload offset, compressed length, manifest length (little-endian Int64 each) and the
+// Trailer: "TANGR-PAYLOAD-01", payload offset, compressed length, manifest length (little-endian Int64 each) and the
 // SHA-256 of the manifest. The manifest holds the SHA-256 of the compressed data and of every file. Files are packed
 // into a few large LZMA streams (segments, compressed in parallel; SharpCompress, which the engines use already)
 // rather than one per file: similar files next to each other compress far better than a zip (the .NET assemblies share
@@ -24,7 +24,7 @@ namespace Tangerine.Setup.Payload;
 
 public sealed class SetupPayload : IDisposable
 {
-    public const string Magic = "TANGERINE-PAYLOAD-01";
+    public const string Magic = "TANGR-PAYLOAD-01";
     public const int TrailerLength = 16 + 8 + 8 + 8 + 32;
     private const int BufferSize = 1 << 20;
 
