@@ -149,7 +149,6 @@
   </Style>
   <Style Selector="Border.chip:pointerover">
     <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
-    <Setter Property="RenderTransform" Value="scale(1.05)" />
   </Style>
 
   <!-- Badge for engine status etc. -->
@@ -218,9 +217,7 @@
       </Transitions>
     </Setter>
   </Style>
-  <Style Selector="ListBox.nav ListBoxItem:pointerover">
-    <Setter Property="RenderTransform" Value="translateX(3px)" />
-  </Style>
+  <Style Selector="ListBox.nav ListBoxItem:pointerover" />
   <Style Selector="ListBox.nav ListBoxItem:selected /template/ ContentPresenter#PART_ContentPresenter">
     <Setter Property="Background" Value="{DynamicResource AccentSoftBrush}" />
     <Setter Property="Foreground" Value="{DynamicResource AccentStrongBrush}" />
