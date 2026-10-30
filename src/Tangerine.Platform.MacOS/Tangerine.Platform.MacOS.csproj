@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Tangerine.Platform.MacOS</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tangerine.Core\Tangerine.Core.csproj" />
+    <InternalsVisibleTo Include="Tangerine.Platform.Tests" />
+  </ItemGroup>
+</Project>

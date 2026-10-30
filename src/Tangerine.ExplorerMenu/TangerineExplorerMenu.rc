@@ -1,0 +1,40 @@
+// Version information of the Explorer context-menu DLL. build/build-explorer-menu.ps1 passes the app version as
+// TANGERINE_VERSION_MAJOR/MINOR/PATCH and TANGERINE_VERSION_TEXT.
+
+#include <winver.h>
+
+#ifndef TANGERINE_VERSION_MAJOR
+#define TANGERINE_VERSION_MAJOR 0
+#define TANGERINE_VERSION_MINOR 0
+#define TANGERINE_VERSION_PATCH 0
+#define TANGERINE_VERSION_TEXT "0.0.0"
+#endif
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION TANGERINE_VERSION_MAJOR, TANGERINE_VERSION_MINOR, TANGERINE_VERSION_PATCH, 0
+PRODUCTVERSION TANGERINE_VERSION_MAJOR, TANGERINE_VERSION_MINOR, TANGERINE_VERSION_PATCH, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_DLL
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Tangerine contributors"
+            VALUE "FileDescription", "Tangerine File Explorer context menu"
+            VALUE "FileVersion", TANGERINE_VERSION_TEXT
+            VALUE "InternalName", "TangerineExplorerMenu"
+            VALUE "LegalCopyright", "Copyright (c) Tangerine contributors. MIT License."
+            VALUE "OriginalFilename", "TangerineExplorerMenu.dll"
+            VALUE "ProductName", "Tangerine"
+            VALUE "ProductVersion", TANGERINE_VERSION_TEXT
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

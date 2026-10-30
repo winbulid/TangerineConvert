@@ -1,0 +1,17 @@
+<!--
+  Tangerine.Platform.Windows: Windows implementation of IPlatformServices
+  (Explorer detection & selection, context menu, auto-start, system metrics, .lnk shortcut targets).
+  Targets plain net10.0 so the cross-platform app can reference it; every entry point is guarded
+  with [SupportedOSPlatform("windows")] and only used when OperatingSystem.IsWindows() is true.
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Tangerine.Platform.Windows</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tangerine.Core\Tangerine.Core.csproj" />
+    <InternalsVisibleTo Include="Tangerine.Platform.Tests" />
+  </ItemGroup>
+</Project>

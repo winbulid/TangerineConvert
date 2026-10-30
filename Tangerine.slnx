@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Tangerine.Core/Tangerine.Core.csproj" />
+    <Project Path="src/Tangerine.Engines/Tangerine.Engines.csproj" />
+    <Project Path="src/Tangerine.Platform.Windows/Tangerine.Platform.Windows.csproj" />
+    <Project Path="src/Tangerine.Platform.Linux/Tangerine.Platform.Linux.csproj" />
+    <Project Path="src/Tangerine.Platform.MacOS/Tangerine.Platform.MacOS.csproj" />
+    <Project Path="src/Tangerine.App/Tangerine.App.csproj" />
+    <Project Path="src/Tangerine.Cli/Tangerine.Cli.csproj" />
+    <Project Path="src/Tangerine.Setup/Tangerine.Setup.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Tangerine.Core.Tests/Tangerine.Core.Tests.csproj" />
+    <Project Path="tests/Tangerine.Engines.Tests/Tangerine.Engines.Tests.csproj" />
+    <Project Path="tests/Tangerine.App.Tests/Tangerine.App.Tests.csproj" />
+    <Project Path="tests/Tangerine.Cli.Tests/Tangerine.Cli.Tests.csproj" />
+    <Project Path="tests/Tangerine.Platform.Tests/Tangerine.Platform.Tests.csproj" />
+    <Project Path="tests/Tangerine.Setup.Tests/Tangerine.Setup.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path=".editorconfig" />
+  </Folder>
+</Solution>

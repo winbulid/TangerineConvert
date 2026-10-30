@@ -1,0 +1,53 @@
+name: Build Windows Setup
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+
+      - name: Version
+        id: version
+        shell: pwsh
+        run: |
+          $v = (Select-Xml -Path Directory.Build.props -XPath '//Version').Node.InnerXML.Trim()
+          "value=$v" >> $env:GITHUB_OUTPUT
+
+      - name: Fonts
+        shell: pwsh
+        run: ./build/fetch-fonts.ps1
+
+      - name: Restore Zig toolchain
+        uses: actions/cache/restore@v4
+        with:
+          path: build/.cache/zig-x86_64-windows-0.16.0
+          key: zig-0.16.0-x86_64-windows
+
+      - name: Build Explorer menu extension
+        shell: pwsh
+        run: ./build/build-explorer-menu.ps1 -Version ${{ steps.version.outputs.value }}
+
+      - name: Build installer (Setup + payload)
+        shell: pwsh
+        run: ./build/build-installer.ps1 -Version ${{ steps.version.outputs.value }}
+
+      - name: Upload Setup
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tangerine-Setup
+          path: |
+            build/.cache/setup/*
+            Releases/*
+          if-no-files-found: warn

@@ -1,0 +1,5 @@
+; Exports of the Explorer context-menu COM server (see TangerineExplorerMenu.c).
+LIBRARY TangerineExplorerMenu
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE

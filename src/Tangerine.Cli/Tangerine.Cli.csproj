@@ -1,0 +1,33 @@
+<!--
+  Tangerine.Cli: the "tangerine" command line. Converts files and watches folders without the tray app, with the same
+  engines, presets and settings. Published next to Tangerine.exe as tangerine-cli.exe (one runtime for both); the installer
+  puts a "tangerine" shim on PATH (cli\tangerine.cmd).
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>tangerine-cli</AssemblyName>
+    <RootNamespace>Tangerine.Cli</RootNamespace>
+    <ApplicationIcon>..\Tangerine.App\Assets\Icons\tangerine.ico</ApplicationIcon>
+    <!-- The Recycle Bin is IFileOperation, a COM interface (Tangerine.Platform.Windows). -->
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tangerine.Core\Tangerine.Core.csproj" />
+    <ProjectReference Include="..\Tangerine.Engines\Tangerine.Engines.csproj" />
+    <!-- "Replace the original" moves originals to the Recycle Bin / Trash (MoveToTrash), as the app does. -->
+    <ProjectReference Include="..\Tangerine.Platform.Windows\Tangerine.Platform.Windows.csproj" />
+    <ProjectReference Include="..\Tangerine.Platform.Linux\Tangerine.Platform.Linux.csproj" />
+    <ProjectReference Include="..\Tangerine.Platform.MacOS\Tangerine.Platform.MacOS.csproj" />
+  </ItemGroup>
+
+  <!-- Error messages and built-in preset names, in English (the app's translation file). -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\Tangerine.App\Assets\i18n\en.json" LogicalName="Tangerine.Cli.en.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tangerine.Cli.Tests" />
+  </ItemGroup>
+</Project>
