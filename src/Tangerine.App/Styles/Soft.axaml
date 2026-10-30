@@ -12,8 +12,8 @@
     <ResourceDictionary>
       <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Light">
-          <SolidColorBrush x:Key="PageBrush" Color="#F4F4F4" />
-          <SolidColorBrush x:Key="SurfaceBrush" Color="#FFFFFF" />
+          <SolidColorBrush x:Key="PageBrush" Color="#D7DADA" />
+          <SolidColorBrush x:Key="SurfaceBrush" Color="#EDEFF1" />
           <SolidColorBrush x:Key="SurfaceAltBrush" Color="#FFF0E4" />
           <SolidColorBrush x:Key="SubtleBorderBrush" Color="#16000000" />
           <SolidColorBrush x:Key="TextPrimaryBrush" Color="#282B29" />
