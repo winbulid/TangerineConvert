@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="Ao arrastar trip.jpg com Ctrl premido, abre-se uma barra circular de formatos junto ao cursor. O ficheiro é largado em PNG, o anel de progresso completa-se e surge trip.png" width="820"></a><br>
-  <sub>Vê o vídeo de 27 segundos e experimenta a demonstração interativa em <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
+  <sub>Vê o vídeo de 27 segundos e experimenta a demonstração interativa em <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## Instalação
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Todos os comandos e opções: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) ou `tangerine help`.
+Todos os comandos e opções: [github.com/winbulid/TangerineConvert/cli](https://github.com/winbulid/TangerineConvert/cli/) ou `tangerine help`.
 
 ## Desenvolvimento
 
@@ -200,9 +200,7 @@ Se o Tangerine te poupa alguns cliques, uma ⭐ ajuda outras pessoas a descobri-
 
 ## Política de assinatura de código
 
-O Tangerine é desenvolvido e publicado por **Myeonggu Kim** ([KnifeLemon](https://github.com/KnifeLemon)).
 
-- As versões para Windows são assinadas com um certificado [Certum](https://www.certum.eu/) de assinatura de código para projetos de código aberto, emitido a Myeonggu Kim ("Open Source Developer MYEONGGU KIM").
   - As versões anteriores, até à 2.0.0 inclusive, não estão assinadas.
   - O SmartScreen pode continuar a mostrar um aviso sobre uma versão nova até que esta tenha sido descarregada vezes suficientes ("Mais informações" → "Executar mesmo assim").
 - Os pacotes para macOS têm uma assinatura ad hoc e não foram notarizados pela Apple.
@@ -232,8 +230,6 @@ Quem faz uma contribuição pontual também pode pedir para ser mencionado.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -241,7 +237,6 @@ Quem faz uma contribuição pontual também pode pedir para ser mencionado.
 
 ## Licença
 
-MIT, © 2026 Myeonggu Kim (KnifeLemon) e colaboradores do Tangerine.
 Os componentes de terceiros incluídos mantêm as suas licenças, indicadas em [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center">

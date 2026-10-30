@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="按住 Ctrl 拖曳 旅行.jpg，游標處彈出格式圓環，放到 PNG 上，進度環走完後產生 旅行.png" width="820"></a><br>
-  <sub>27 秒影片和互動式示範請前往 <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
+  <sub>27 秒影片和互動式示範請前往 <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## 安裝
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-全部命令和選項見 [tangerine.sh](https://github.com/winbulid/TangerineConvert/) 或 `tangerine help`。
+全部命令和選項見 [github.com/winbulid/TangerineConvert](https://github.com/winbulid/TangerineConvert/) 或 `tangerine help`。
 
 ## 開發
 
@@ -200,9 +200,7 @@ dotnet test
 
 ## 程式碼簽章政策
 
-Tangerine 由 **Myeonggu Kim**（[KnifeLemon](https://github.com/KnifeLemon)）開發和發布。
 
-- Windows 版本使用頒發給 Myeonggu Kim 的 [Certum](https://www.certum.eu/) 開放原始碼程式碼簽章憑證簽署。
   - 2.0.0 及更早的版本沒有簽署。
 
 詳細政策和隱私權政策見[英文 README](README.md#code-signing-policy)。
@@ -221,8 +219,6 @@ Tangerine 免費，並將一直免費。
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -230,7 +226,6 @@ Tangerine 免費，並將一直免費。
 
 ## 授權條款
 
-MIT，© 2026 Myeonggu Kim (KnifeLemon) 和 Tangerine 貢獻者。
 隨附的第三方元件遵循各自的授權條款，詳見 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
 
 <p align="center">

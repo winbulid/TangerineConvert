@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="Файл trip.jpg перетаскивают с зажатой клавишей Ctrl: у курсора открывается круговое меню форматов, файл отпускают на PNG, кольцо прогресса замыкается и появляется trip.png" width="820"></a><br>
-  <sub>Посмотрите 27-секундное видео и попробуйте интерактивное демо на <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
+  <sub>Посмотрите 27-секундное видео и попробуйте интерактивное демо на <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## Установка
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Все команды и параметры: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) или `tangerine help`.
+Все команды и параметры: [github.com/winbulid/TangerineConvert/cli](https://github.com/winbulid/TangerineConvert/cli/) или `tangerine help`.
 
 ## Для разработчиков
 
@@ -200,9 +200,7 @@ dotnet test
 
 ## Подпись кода
 
-Tangerine разрабатывает и публикует **Myeonggu Kim** ([KnifeLemon](https://github.com/KnifeLemon)).
 
-- Выпуски для Windows подписываются сертификатом [Certum](https://www.certum.eu/) для подписи кода open source, выданным на имя Myeonggu Kim.
   - Выпуски до 2.0.0 включительно не подписаны.
 
 Полные правила и политику конфиденциальности смотрите в [английском README](README.md#code-signing-policy).
@@ -220,8 +218,6 @@ Tangerine бесплатный и останется бесплатным.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -229,7 +225,6 @@ Tangerine бесплатный и останется бесплатным.
 
 ## Лицензия
 
-MIT, © 2026 Myeonggu Kim (KnifeLemon) и участники проекта Tangerine.
 Сторонние компоненты в комплекте распространяются под собственными лицензиями, перечисленными в [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center">

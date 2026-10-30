@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert/zh-cn/"><img src="docs/media/demo-zh-CN.webp" alt="按住 Ctrl 拖动 旅行.jpg，光标处弹出格式圆环，放到 PNG 上，进度环走完后生成 旅行.png" width="820"></a><br>
-  <sub>27 秒视频和可交互演示请访问 <a href="https://github.com/winbulid/TangerineConvert/zh-cn/">tangerine.sh</a></sub>
+  <sub>27 秒视频和可交互演示请访问 <a href="https://github.com/winbulid/TangerineConvert/zh-cn/">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## 安装
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-全部命令和选项见 [tangerine.sh/zh-cn/cli](https://github.com/winbulid/TangerineConvert/zh-cn/cli/) 或 `tangerine help`。
+全部命令和选项见 [github.com/winbulid/TangerineConvert/zh-cn/cli](https://github.com/winbulid/TangerineConvert/zh-cn/cli/) 或 `tangerine help`。
 
 ## 开发
 
@@ -200,9 +200,7 @@ dotnet test
 
 ## 代码签名政策
 
-Tangerine 由 **Myeonggu Kim**（[KnifeLemon](https://github.com/KnifeLemon)）开发和发布。
 
-- Windows 版本使用颁发给 Myeonggu Kim 的 [Certum](https://www.certum.eu/) 开源代码签名证书签名。
   - 2.0.0 及更早的版本没有签名。
 
 详细政策和隐私政策见[英文 README](README.md#code-signing-policy)。
@@ -221,8 +219,6 @@ Tangerine 免费，并将一直免费。
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -230,7 +226,6 @@ Tangerine 免费，并将一直免费。
 
 ## 许可证
 
-MIT，© 2026 Myeonggu Kim (KnifeLemon) 和 Tangerine 贡献者。
 随附的第三方组件遵循各自的许可证，详见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
 
 <p align="center">

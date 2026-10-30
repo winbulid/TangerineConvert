@@ -70,7 +70,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert/ko/"><img src="docs/media/demo-ko.webp" alt="Ctrl을 누른 채 여행사진.jpg를 끌면 커서 위치에 형식 도넛이 열리고, PNG에 놓으면 진행률 링이 차오른 뒤 여행사진.png가 생깁니다" width="820"></a><br>
-  <sub>27초 영상과 직접 해보는 데모는 <a href="https://github.com/winbulid/TangerineConvert/ko/">tangerine.sh</a>에서</sub>
+  <sub>27초 영상과 직접 해보는 데모는 <a href="https://github.com/winbulid/TangerineConvert/ko/">github.com/winbulid/TangerineConvert</a>에서</sub>
 </p>
 
 ## 설치
@@ -180,7 +180,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-모든 명령과 옵션은 [tangerine.sh/ko/cli](https://github.com/winbulid/TangerineConvert/ko/cli/)나 `tangerine help`에서 볼 수 있어요.
+모든 명령과 옵션은 [github.com/winbulid/TangerineConvert/ko/cli](https://github.com/winbulid/TangerineConvert/ko/cli/)나 `tangerine help`에서 볼 수 있어요.
 
 ## 개발
 
@@ -201,9 +201,7 @@ Tangerine가 쓸만하다면 ⭐ 하나가 다른 사람들이 Tangerine를 찾�
 
 ## 코드 서명 정책
 
-Tangerine는 **Myeonggu Kim**([KnifeLemon](https://github.com/KnifeLemon))이 개발하고 배포해요.
 
-- Windows 릴리스는 Myeonggu Kim 명의의 [Certum](https://www.certum.eu/) 오픈소스 코드 서명 인증서로 서명해요.
   - 2.0.0까지의 릴리스는 서명되지 않았어요.
 
 자세한 정책과 개인정보 처리 방침은 [영문 README](README.md#code-signing-policy)에 있어요.
@@ -222,8 +220,6 @@ Tangerine는 앞으로도 무료예요.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -231,7 +227,6 @@ Tangerine는 앞으로도 무료예요.
 
 ## 라이선스
 
-MIT, © 2026 Myeonggu Kim (KnifeLemon), Tangerine 기여자.
 포함된 서드파티 구성요소는 각자의 라이선스를 따르고, [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)에 정리되어 있어요.
 
 <p align="center">

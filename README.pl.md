@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert/pl/"><img src="docs/media/demo-en.webp" alt="Przeciąganie trip.jpg z wciśniętym Ctrl: przy kursorze otwiera się pierścień formatów, plik zostaje upuszczony na PNG, pierścień postępu się zamyka i pojawia się trip.png" width="820"></a><br>
-  <sub>Obejrzyj 27-sekundowy film i wypróbuj interaktywne demo na <a href="https://github.com/winbulid/TangerineConvert/pl/">tangerine.sh</a></sub>
+  <sub>Obejrzyj 27-sekundowy film i wypróbuj interaktywne demo na <a href="https://github.com/winbulid/TangerineConvert/pl/">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## Instalacja
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Wszystkie polecenia i opcje: [tangerine.sh/pl/cli](https://github.com/winbulid/TangerineConvert/pl/cli/) lub `tangerine help`.
+Wszystkie polecenia i opcje: [github.com/winbulid/TangerineConvert/pl/cli](https://github.com/winbulid/TangerineConvert/pl/cli/) lub `tangerine help`.
 
 ## Dla programistów
 
@@ -200,9 +200,7 @@ Jeśli Tangerine oszczędza Ci kilka kliknięć, ⭐ pomoże innym go znaleźć.
 
 ## Zasady podpisywania kodu
 
-Tangerine tworzy i publikuje **Myeonggu Kim** ([KnifeLemon](https://github.com/KnifeLemon)).
 
-- Wydania dla Windows są podpisywane certyfikatem [Certum](https://www.certum.eu/) do podpisywania kodu open source, wystawionym na Myeonggu Kim.
   - Wydania do 2.0.0 włącznie nie są podpisane.
 
 Pełne zasady i politykę prywatności znajdziesz w [angielskim README](README.md#code-signing-policy).
@@ -220,8 +218,6 @@ Jeśli wspierasz jednorazowo, też możesz poprosić o wpis.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -229,7 +225,6 @@ Jeśli wspierasz jednorazowo, też możesz poprosić o wpis.
 
 ## Licencja
 
-MIT, © 2026 Myeonggu Kim (KnifeLemon) i współtwórcy Tangerine.
 Dołączone komponenty innych firm mają własne licencje, wymienione w [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center">

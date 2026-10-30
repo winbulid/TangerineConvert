@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="Dragging trip.jpg with Ctrl held: a donut of formats opens at the cursor, the file is dropped on PNG, a progress ring completes and trip.png appears" width="820"></a><br>
-  <sub>Watch the 27-second video and try the interactive demo on <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
+  <sub>Watch the 27-second video and try the interactive demo on <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## Install
@@ -179,7 +179,7 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Every command and option: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) or `tangerine help`.
+Every command and option: [github.com/winbulid/TangerineConvert/cli](https://github.com/winbulid/TangerineConvert/cli/) or `tangerine help`.
 
 ## Development
 
@@ -200,9 +200,7 @@ If Tangerine saves you some clicks, a ⭐ helps other people find it.
 
 ## Code signing policy
 
-Tangerine is developed and published by **Myeonggu Kim** ([KnifeLemon](https://github.com/KnifeLemon)).
 
-- Windows releases are signed with a [Certum](https://www.certum.eu/) open source code signing certificate issued to Myeonggu Kim ("Open Source Developer MYEONGGU KIM").
   - Releases before it, up to 2.0.0, are not signed.
   - SmartScreen can still warn about a new release until it has been downloaded enough ("More info" → "Run anyway").
 - macOS packages are ad-hoc signed and not notarized.
@@ -232,8 +230,6 @@ One-time supporters can ask to be listed too.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -241,7 +237,6 @@ One-time supporters can ask to be listed too.
 
 ## License
 
-MIT, © 2026 Myeonggu Kim (KnifeLemon) and Tangerine contributors.
 Bundled third-party components keep their own licenses, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center">

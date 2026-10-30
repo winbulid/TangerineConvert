@@ -71,7 +71,7 @@
 
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="سحب trip.jpg مع الضغط على Ctrl: تظهر عند المؤشر قائمة دائرية بالصيغ، ويُفلَت الملف على PNG، فتكتمل حلقة التقدم ويظهر trip.png" width="820"></a><br>
-  <sub>شاهد الفيديو (27 ثانية) وجرّب العرض التفاعلي على <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
+  <sub>شاهد الفيديو (27 ثانية) وجرّب العرض التفاعلي على <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
 </p>
 
 ## التثبيت
@@ -189,7 +189,7 @@ tangerine watch D:\Inbox --to pdf --move-originals
 
 <div dir="rtl">
 
-جميع الأوامر والخيارات: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) أو `tangerine help`.
+جميع الأوامر والخيارات: [github.com/winbulid/TangerineConvert/cli](https://github.com/winbulid/TangerineConvert/cli/) أو `tangerine help`.
 
 ## التطوير
 
@@ -214,9 +214,7 @@ dotnet test
 
 ## سياسة توقيع الشيفرة
 
-يطوّر Tangerine وينشره **Myeonggu Kim** ([KnifeLemon](https://github.com/KnifeLemon)).
 
-- تُوقَّع إصدارات Windows بشهادة توقيع شيفرة للمشاريع مفتوحة المصدر من [Certum](https://www.certum.eu/) صادرة باسم Myeonggu Kim.
   - الإصدارات حتى 2.0.0 غير موقَّعة.
 
 السياسة الكاملة وسياسة الخصوصية في [README الإنجليزي](README.md#code-signing-policy).
@@ -236,8 +234,6 @@ Tangerine مجاني وسيبقى مجانيًا.
 <!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center" dir="ltr">
-  <a href="https://github.com/sponsors/KnifeLemon"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://patreon.com/KnifeLemon"><img src="https://img.shields.io/badge/Patreon-000000?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
   <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
@@ -247,7 +243,6 @@ Tangerine مجاني وسيبقى مجانيًا.
 
 ## الترخيص
 
-MIT، © 2026 Myeonggu Kim (KnifeLemon) والمساهمون في Tangerine.
 تحتفظ مكونات الجهات الخارجية المضمّنة بتراخيصها الخاصة، وهي مدرجة في [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 </div>
