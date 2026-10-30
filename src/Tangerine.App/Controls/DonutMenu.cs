@@ -576,15 +576,22 @@ public sealed partial class DonutMenu : Control
     }
 
     /// <summary>Short tick when the active slice changes (like the Tangerine Mac wheel). Silent when sound is off.</summary>
+    [System.Runtime.InteropServices.LibraryImport("winmm.dll", EntryPoint = "PlaySoundW", StringMarshalling = System.Runtime.InteropServices.StringMarshalling.Utf16)]
+    private static partial bool PlaySound(string fileName, nint module, uint flags);
+
+    private static bool? _tickSoundAvailable;
+
     private void PlayTick()
     {
         try
         {
             if (OperatingSystem.IsWindows())
             {
-                // C:\Windows\Media offers several short UI sounds; Navigation Start is the subtlest tick.
-                using var player = new System.Media.SoundPlayer(Path.Combine(Environment.SystemDirectory, @"..\Media\Windows Navigation Start.wav"));
-                player.Play();
+                var wav = Path.Combine(Environment.SystemDirectory, @"..\Media\Windows Navigation Start.wav");
+                if (_tickSoundAvailable is null)
+                    _tickSoundAvailable = File.Exists(wav);
+                if (_tickSoundAvailable == true)
+                    PlaySound(wav, 0, 0x0002 | 0x20000); // SND_NODEFAULT | SND_FILENAME
             }
             else
             {
