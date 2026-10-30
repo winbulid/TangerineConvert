@@ -12,8 +12,6 @@
 <p align="center">
   <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=%E2%AC%87%EF%B8%8F%20release&style=for-the-badge" alt="Latest release"></a>
   <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=FF7A47&label=downloads&style=for-the-badge" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10 | 11">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28?style=for-the-badge" alt="MIT license"></a>
 </p>
 
 ---
