@@ -16,32 +16,32 @@
 
 ---
 
-## ✨ Why Tangerine
+## Why Tangerine
 
 | | |
 |---|---|
-| 🎯 **Right at your cursor** | No app window to open. Formats appear where you already are — only the ones that fit your files. |
+|  **Right at your cursor** | No app window to open. Formats appear where you already are — only the ones that fit your files. |
 | **270 formats, no other software** | Images, PDF, Word, Excel, PowerPoint, e-books, archives, fonts, CAD, 3D models — without Office or LibreOffice. |
-| 🔒 **Stays on your computer** | Nothing is uploaded. Works offline, saves the result next to the original. |
+|  **Stays on your computer** | Nothing is uploaded. Works offline, saves the result next to the original. |
 
-## 📦 Install
+## Install
 
 > Download the installer from **[Releases](https://github.com/winbulid/TangerineConvert/releases/latest)** → run `Tangerine-x.y.z-win-Setup.exe`.
 > SmartScreen may warn on first run: **More info → Run anyway** (the build isn't code-signed).
 
-## 🚀 Features
+## Features
 
-- **🍩 A donut at the cursor** — hold a key, drag files, drop them on a format. Only fitting formats appear.
-- **🌐 Straight from the browser** — drag a picture or a download link out of Chrome, Edge, Firefox or Safari; Tangerine converts it on the way down.
-- **🎛️ One toolbar per file type** — arranged by drag & drop, with presets for quality, size, DPI, PDF pages, video/audio, output names.
-- **🪙 Two sides to every donut** — press <kbd>Tab</kbd> or spin the wheel to flip to rarer formats and tools.
-- **✂️ Crop before converting** — drag the frame, pick a ratio, save only that part.
-- **⚡ Many files at once**, in parallel — multi-step routes (HWP → HWPX → DOCX) are found automatically.
-- **👀 Watch folders** — every file that lands in them gets converted.
-- **🕘 Recent conversions** with thumbnails on Home.
-- **🎨 Light & dark themes** with your own accent colour, in 18 languages.
+- ** A donut at the cursor** — hold a key, drag files, drop them on a format. Only fitting formats appear.
+- ** Straight from the browser** — drag a picture or a download link out of Chrome, Edge, Firefox or Safari; Tangerine converts it on the way down.
+- ** One toolbar per file type** — arranged by drag & drop, with presets for quality, size, DPI, PDF pages, video/audio, output names.
+- ** Two sides to every donut** — press <kbd>Tab</kbd> or spin the wheel to flip to rarer formats and tools.
+- ** Crop before converting** — drag the frame, pick a ratio, save only that part.
+- ** Many files at once**, in parallel — multi-step routes (HWP → HWPX → DOCX) are found automatically.
+- ** Watch folders** — every file that lands in them gets converted.
+- ** Recent conversions** with thumbnails on Home.
+- ** Light & dark themes** with your own accent colour, in 18 languages.
 
-## 🧾 Formats
+## Formats
 
 <details>
 <summary><b>Click to expand the full format table</b> (270+ formats)</summary>
@@ -73,7 +73,7 @@
 
 Unmarked formats work out of the box — no Office, Hancom Office or LibreOffice needed.
 
-## ⌨️ Command line
+## ⌨ Command line
 
 The `tangerine` command uses the same engines and presets as the app (Setup or `install.sh` adds it).
 
@@ -83,13 +83,13 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-## 🔏 Code signing & privacy
+## Code signing & privacy
 
 - The installer is built by this repository's GitHub Actions workflow and is **not code-signed** — SmartScreen may warn once: **More info → Run anyway**.
 - Signed libraries (.NET, SkiaSharp, ImageMagick, the Microsoft C++ runtime …) keep their own signatures.
 - **Tangerine converts files on your own computer and never uploads them.** No usage data, no telemetry. It only touches the internet to check for updates (off by default in Settings → About), to download the engines you choose, and when you click a link.
 
-## 📄 License
+## License
 
 [MIT](LICENSE) — bundled third-party components keep their own licenses, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
