@@ -570,38 +570,8 @@ public sealed partial class DonutMenu : Control
         if (_hoverIndex == index)
             return;
         _hoverIndex = index;
-        PlayTick();
         ActiveIndexChanged?.Invoke(this, ActiveIndex);
         StartAnimation();
-    }
-
-    /// <summary>Short tick when the active slice changes (like the Tangerine Mac wheel). Silent when sound is off.</summary>
-    [System.Runtime.InteropServices.DllImport("winmm.dll", EntryPoint = "PlaySoundW", CharSet = System.Runtime.InteropServices.CharSet.Unicode)]
-    private static extern bool PlaySound(string fileName, nint module, uint flags);
-
-    private static bool? _tickSoundAvailable;
-
-    private void PlayTick()
-    {
-        try
-        {
-            if (OperatingSystem.IsWindows())
-            {
-                var wav = Path.Combine(Environment.SystemDirectory, @"..\Media\Windows Navigation Start.wav");
-                if (_tickSoundAvailable is null)
-                    _tickSoundAvailable = File.Exists(wav);
-                if (_tickSoundAvailable == true)
-                    PlaySound(wav, 0, 0x0002 | 0x20000); // SND_NODEFAULT | SND_FILENAME
-            }
-            else
-            {
-                Console.Beep(1200, 18);
-            }
-        }
-        catch
-        {
-            // Sound is a nice-to-have; never break interaction over it.
-        }
     }
 
     // ───────────────────────── Animation ─────────────────────────
