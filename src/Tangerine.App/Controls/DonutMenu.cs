@@ -576,8 +576,8 @@ public sealed partial class DonutMenu : Control
     }
 
     /// <summary>Short tick when the active slice changes (like the Tangerine Mac wheel). Silent when sound is off.</summary>
-    [System.Runtime.InteropServices.LibraryImport("winmm.dll", EntryPoint = "PlaySoundW", StringMarshalling = System.Runtime.InteropServices.StringMarshalling.Utf16)]
-    private static partial bool PlaySound(string fileName, nint module, uint flags);
+    [System.Runtime.InteropServices.DllImport("winmm.dll", EntryPoint = "PlaySoundW", CharSet = System.Runtime.InteropServices.CharSet.Unicode)]
+    private static extern bool PlaySound(string fileName, nint module, uint flags);
 
     private static bool? _tickSoundAvailable;
 
