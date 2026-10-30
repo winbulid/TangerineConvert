@@ -65,48 +65,11 @@
   </tr>
 </table>
 
-## See it in action
-
-<p align="center">
-  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="Dragging trip.jpg with Ctrl held: a donut of formats opens at the cursor, the file is dropped on PNG, a progress ring completes and trip.png appears" width="820"></a><br>
-  <sub>Watch the 27-second video and try the interactive demo on <a href="https://github.com/winbulid/TangerineConvert">github.com/winbulid/TangerineConvert</a></sub>
-</p>
 
 ## Install
 
 Download from [Releases](https://github.com/winbulid/TangerineConvert/releases/latest).
 
-<a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Microsoft Store" width="200"></a>
-
-- **Windows 10/11**: run `Tangerine-<version>-win-Setup.exe`, or unzip the `win-Portable.zip` and run `Tangerine.exe`.
-  - Setup is Tangerine's own installer, in Tangerine's languages, and needs nothing else on the PC.
-  - It can add the Explorer menu, start at sign-in, the `tangerine` command and optional engines.
-  - Silent installs take Inno Setup's switches (`/VERYSILENT /SUPPRESSMSGBOXES`).
-- **macOS 13+** (preview): unpack the `osx-arm64` or `osx-x64` package and run `./install.sh`.
-  - Or open the `.dmg` and drag Tangerine to Applications (the `tangerine` command comes with `install.sh`).
-  - The build isn't notarized yet, so allow the first start in System Settings → Privacy & Security → **Open Anyway**.
-- **Linux x64/ARM64** (Ubuntu 22.04+): unpack the package and run `./install.sh` (no root, needs Python 3).
-  - Drag gestures need X11.
-    On Wayland, use the drop zone and the file manager's right-click menu.
-
-Tangerine shows new releases in its menu and updates itself, keeping your settings and engines.
-After an update, a few slides show what's new.
-
-**Windows: Tangerine doesn't start (no window, no error)?**
-This happens on Windows 10 that hasn't been updated for a long time, on a PC whose processor supports Hardware-enforced Stack Protection (CET).
-Windows turns that protection on but lacks a part that .NET needs, so Tangerine and Setup stop right away.
-
-- **Recommended:** install the available Windows updates (the latest cumulative update).
-- **If updating isn't possible:** turning the protection off for Tangerine alone usually works.
-  Run this in PowerShell as administrator:
-
-```powershell
-Set-ProcessMitigation -Name Tangerine.exe -Disable UserShadowStack
-Set-ProcessMitigation -Name tangerine-cli.exe -Disable UserShadowStack
-```
-
-Do the same with Setup's file name (e.g. `Tangerine-<version>-win-Setup.exe`), or use the portable ZIP, which needs only these two lines.
-To undo it, remove the entries in Windows Security → App & browser control → Exploit protection settings → Program settings.
 
 ## Features
 
@@ -130,18 +93,6 @@ To undo it, remove the entries in Windows Security → App & browser control →
 - **Other ways in**: the right-click menu, a keyboard shortcut, the drop zone and the [`tangerine` command](#command-line).
 - Light and dark themes with your own accent colour and donut opacity, in English, Español, 日本語, 한국어, 简体中文, 繁體中文, Polski, हिन्दी, Русский, العربية (right to left), Português (Brasil), Français, नेपाली, ไทย, Türkçe, Português (Portugal), Deutsch and Italiano.
 
-## Screenshots
-
-<table>
-  <tr>
-    <td width="50%"><img src="docs/media/page-toolbar-en.png" alt="Donut toolbar editor with profiles and presets"></td>
-    <td width="50%"><img src="docs/media/page-home-en.png" alt="Home screen with the drop zone and recent conversions"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Arrange the donut by drag and drop, one profile per file type</sub></td>
-    <td align="center"><sub>Home: drop zone and recent conversions</sub></td>
-  </tr>
-</table>
 
 ## Formats
 
