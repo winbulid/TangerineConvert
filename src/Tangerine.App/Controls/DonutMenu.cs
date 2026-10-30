@@ -884,6 +884,9 @@ public sealed partial class DonutMenu : Control
     {
         DrawSoftShadow(context, center, r2);
         DrawBezelRing(context, center, r2);
+        // The plate behind the slices: shows through the gaps between them, all the way to the hub.
+        var plate = CreateRing(center, r1, r2);
+        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E9EBEC")), null, plate);
 
         if (n == 0)
         {
