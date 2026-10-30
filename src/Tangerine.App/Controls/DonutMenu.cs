@@ -107,7 +107,7 @@ public sealed partial class DonutMenu : Control
         AvaloniaProperty.Register<DonutMenu, IBrush?>(nameof(DangerBrush), Brushes.IndianRed);
 
     /// <summary>Gap between slices in pixels (keeps the donut "full" while separating slices).</summary>
-    private const double GapPixels = 8;
+    private const double GapPixels = 5;
     private const double PopOut = 0;
     private const double OpenDuration = 0.42;
     private const double OpenStagger = 0.028;
@@ -1209,7 +1209,7 @@ public sealed partial class DonutMenu : Control
     /// How round the slices' corners are: half the theme's softness (0 to 28), so the largest setting still leaves the
     /// slices clearly apart. <see cref="DonutGeometry.Wedge"/> shrinks it for slices too thin for it.
     /// </summary>
-    internal double SliceCornerRadius => Math.Clamp(CornerRadius.TopLeft * 2.2, 0, 40);
+    internal double SliceCornerRadius => Math.Clamp(CornerRadius.TopLeft * 1.6, 0, 30);
 
     private StreamGeometry CreateWedge(Point c, double r1, double r2, int index, int count) =>
         count == 1 ? CreateRing(c, r1, r2) : CreateWedge(c, r1, r2, DonutGeometry.MidAngle(index, count), DonutGeometry.Span(count));

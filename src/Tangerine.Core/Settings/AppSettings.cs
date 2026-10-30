@@ -64,7 +64,7 @@ public sealed class DonutSettings
     public double OuterRadius { get; set; } = 150;
 
     /// <summary>Inner (hole) radius as a fraction of the outer radius (0.2 - 0.7).</summary>
-    public double HoleRatio { get; set; } = 0.33;
+    public double HoleRatio { get; set; } = 0.41;
 
     /// <summary>Background opacity of the slices (<see cref="MinOpacity"/> - 1); labels and outlines stay opaque.</summary>
     public double Opacity { get; set; } = 0.96;
