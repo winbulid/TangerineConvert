@@ -270,9 +270,6 @@ public sealed partial class DonutMenu
         // Slices shrink towards the centre with a slight stagger ("sucked in").
         if (collapseAll < 1)
         {
-            using (context.PushOpacity(1 - collapseAll))
-                DrawSoftShadow(context, center, r2);
-
             for (var i = 0; i < n; i++)
             {
                 var t = Math.Clamp((_collapseClock - i * CollapseStagger) / CollapseSeconds, 0, 1);
