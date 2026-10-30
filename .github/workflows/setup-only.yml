@@ -48,6 +48,5 @@ jobs:
         with:
           name: Tangerine-Setup
           path: |
-            build/.cache/setup/*
             Releases/*
           if-no-files-found: warn
