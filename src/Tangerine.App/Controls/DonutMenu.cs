@@ -55,7 +55,7 @@ public sealed partial class DonutMenu : Control
     public static readonly StyledProperty<double> OuterRadiusProperty =
         AvaloniaProperty.Register<DonutMenu, double>(nameof(OuterRadius), 150);
     public static readonly StyledProperty<double> HoleRatioProperty =
-        AvaloniaProperty.Register<DonutMenu, double>(nameof(HoleRatio), 0.42);
+        AvaloniaProperty.Register<DonutMenu, double>(nameof(HoleRatio), 0.35);
     public static readonly StyledProperty<double> SliceOpacityProperty =
         AvaloniaProperty.Register<DonutMenu, double>(nameof(SliceOpacity), 0.96);
     public static readonly StyledProperty<string?> CenterTitleProperty =
@@ -871,10 +871,33 @@ public sealed partial class DonutMenu : Control
             DrawEditButton(context, EditButtonCenter(_hoverIndex));
     }
 
+
+    /// <summary>The thin glassy bezel ring peeking out behind the slices (macOS look).</summary>
+    private void DrawBezelRing(DrawingContext context, Point center, double r2)
+    {
+        var bezelOuter = r2 + 3;
+        var ring = CreateRing(center, r2 - 1, bezelOuter);
+        // Vertical gradient: bright silver on top, darker below — the beveled glass edge.
+        var brush = new LinearGradientBrush
+        {
+            StartPoint = new RelativePoint(0.5, 0, RelativeUnit.Relative),
+            EndPoint = new RelativePoint(0.5, 1, RelativeUnit.Relative),
+            GradientStops =
+            {
+                new GradientStop(Color.Parse("#FDFDFD"), 0),
+                new GradientStop(Color.Parse("#E3E3E3"), 0.45),
+                new GradientStop(Color.Parse("#B9B9B9"), 1),
+            },
+        };
+        using (context.PushOpacity(0.9))
+            context.DrawGeometry(brush, new Pen(new ImmutableSolidColorBrush(Color.Parse("#A8A8A8")), 0.7), ring);
+    }
+
     /// <summary>The shadow, the slices and the edit mode's drop preview.</summary>
     private void RenderRing(DrawingContext context, Point center, double r1, double r2, int n, Typeface typeface, Typeface typefaceRegular)
     {
         DrawSoftShadow(context, center, r2);
+        DrawBezelRing(context, center, r2);
 
         if (n == 0)
         {

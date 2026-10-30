@@ -22,7 +22,7 @@ public sealed partial class RadialViewModel(UserDataStore store, ILocalizer loc,
     /// <summary>The job the progress ring shows, for the download badge above it; null when the ring shows none.</summary>
     [ObservableProperty] private JobViewModel? _progressJob;
     [ObservableProperty] private double _outerRadius = 150;
-    [ObservableProperty] private double _holeRatio = 0.42;
+    [ObservableProperty] private double _holeRatio = 0.35;
     [ObservableProperty] private double _sliceOpacity = 0.96;
 
     /// <summary>The other face has a slice for these files: Tab flips to it.</summary>
