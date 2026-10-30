@@ -2,7 +2,7 @@
   <img src="src/Tangerine.App/Assets/Icons/tangerine.png" alt="Tangerine" width="180">
 </p>
 
-<h1 align="center">🍊 Tangerine</h1>
+<h1 align="center">Tangerine</h1>
 
 <p align="center">
   <b>A free, open-source file converter you use by dragging.</b><br>
@@ -21,7 +21,7 @@
 | | |
 |---|---|
 | 🎯 **Right at your cursor** | No app window to open. Formats appear where you already are — only the ones that fit your files. |
-| 🍊 **270 formats, no other software** | Images, PDF, Word, Excel, PowerPoint, e-books, archives, fonts, CAD, 3D models — without Office or LibreOffice. |
+| **270 formats, no other software** | Images, PDF, Word, Excel, PowerPoint, e-books, archives, fonts, CAD, 3D models — without Office or LibreOffice. |
 | 🔒 **Stays on your computer** | Nothing is uploaded. Works offline, saves the result next to the original. |
 
 ## 📦 Install
@@ -96,5 +96,5 @@ tangerine watch D:\Inbox --to pdf --move-originals
 ---
 
 <p align="center">
-  <sub>Made with 🍊 by <b>winbulid</b></sub>
+  <sub>Made by <b>winbulid</b></sub>
 </p>
