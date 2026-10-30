@@ -92,7 +92,7 @@ public sealed partial class DonutMenu : Control
 
     /// <summary>Gap between slices in pixels (keeps the donut "full" while separating slices).</summary>
     private const double GapPixels = 3;
-    private const double PopOut = 7;
+    private const double PopOut = 11;
     private const double OpenDuration = 0.42;
     private const double OpenStagger = 0.028;
     private const double DragStartDistance = 5;
@@ -784,7 +784,7 @@ public sealed partial class DonutMenu : Control
             // Popping out bounces; letting go settles without a bounce: one below zero would make the faded accent
             // flash once more on its way back.
             for (var i = 0; i < _hover.Length; i++)
-                active |= i == ActiveIndex ? _hover[i].Step(1, dt) : _hover[i].Step(0, dt, 320, CriticalDamping);
+                active |= i == ActiveIndex ? _hover[i].Step(1, dt, 320, 14) : _hover[i].Step(0, dt, 320, 16);
             active |= _centerPulse.Step(0, dt, 260, 12);
             // A soft bounce opening, like the slices popping out; folding away settles without one. The bounce grows the
             // ring by about a pixel, well inside the room kept for it (SubRingSpace).
@@ -907,7 +907,7 @@ public sealed partial class DonutMenu : Control
             var transform =
                 Matrix.CreateTranslation(-center.X, -center.Y) *
                 Matrix.CreateRotation(rotate) *
-                Matrix.CreateScale(scale * (1 + hover * 0.025), scale * (1 + hover * 0.025)) *
+                Matrix.CreateScale(scale * (1 + hover * 0.08), scale * (1 + hover * 0.08)) *
                 Matrix.CreateTranslation(center.X + offset.X, center.Y + offset.Y) *
                 SliceFlipTransform(false, i);
 
