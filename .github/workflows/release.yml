@@ -10,6 +10,14 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version
+        id: version
+        run: |
+          v=$(grep -o '<Version>[^<]*</Version>' Directory.Build.props | head -1 | sed 's/<[^>]*>//g')
+          echo "value=$v" >> $GITHUB_OUTPUT
+
       - name: Download latest build artifact
         uses: dawidd6/action-download-artifact@v6
         with:
@@ -20,7 +28,7 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0
-          name: Tangerine v1.0.0
+          tag_name: v${{ steps.version.outputs.value }}
+          name: Tangerine v${{ steps.version.outputs.value }}
           generate_release_notes: true
-          files: artifact/**
+          files: artifact/**/Tangerine-*-win-Setup.exe
