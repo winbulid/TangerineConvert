@@ -227,7 +227,6 @@ Se quiseres apoiar o projeto, escolhe a forma que preferires ([Fairy](https://fa
 Quem contribui mensalmente é mencionado aqui pelo nome, e os patrocinadores têm o seu logótipo aqui e na página Acerca de do Tangerine.
 Quem faz uma contribuição pontual também pode pedir para ser mencionado.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

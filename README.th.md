@@ -217,7 +217,6 @@ Tangerine ทำการแปลงไฟล์ภายในเครื่�
 - ดาวน์โหลดเครื่องมือแปลงไฟล์ที่คุณเลือกติดตั้ง จากแหล่งทางการที่ระบุไว้ใน [`engines.json`](src/Tangerine.Engines/Infrastructure/engines.json) และภาษาสำหรับการรู้จำข้อความ (OCR) ที่พรีเซ็ตใช้ ซึ่งระบุไว้ใน [`ocr-languages.json`](src/Tangerine.Engines/Infrastructure/ocr-languages.json)
 - เมื่อคุณคลิกลิงก์ ซึ่งจะเปิดหน้าเว็บในเบราว์เซอร์ของคุณ
 
-## ผู้สนับสนุน (Sponsor)
 
 Tangerine ใช้งานได้ฟรีและจะฟรีตลอดไป
 หากคุณต้องการสนับสนุนการพัฒนา สามารถเลือกช่องทางที่สะดวกได้เลย ([Fairy](https://fairy.hada.io/@tangerine) รองรับบัตรเกาหลีและระบบชำระเงินแบบง่ายของเกาหลี)
@@ -226,7 +225,6 @@ Tangerine ใช้งานได้ฟรีและจะฟรีตลอ�
 ผู้สนับสนุนรายเดือนจะได้รับการแสดงชื่อไว้ที่นี่ และผู้สนับสนุนระดับโลโก้จะได้แสดงโลโก้ทั้งที่นี่และในหน้าเกี่ยวกับของ Tangerine
 ผู้ที่สนับสนุนครั้งเดียวก็ขอให้แสดงชื่อได้เช่นกัน
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

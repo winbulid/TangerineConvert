@@ -224,10 +224,8 @@ Tangerine ücretsizdir ve ücretsiz kalacaktır.
 Destek olmak isterseniz size en uygun yöntemi seçebilirsiniz ([Fairy](https://fairy.hada.io/@tangerine) Kore kartlarını ve kolay ödemeyi destekler).
 
 **Adınız veya logonuz burada yer alabilir.**
-Aylık destekçiler burada isimleriyle listelenir; sponsorlar logolarını hem burada hem de Tangerine'nin Hakkında sayfasında sergileyebilir.
 Tek seferlik destekçiler de listelenmeyi talep edebilir.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

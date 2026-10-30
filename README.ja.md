@@ -218,7 +218,6 @@ Tangerineは無料で、これからも無料です。
 毎月支援してくださる方はここにお名前を、スポンサーの方はこことTangerineの「Tangerineについて」ページにロゴを掲載します。
 一度だけ支援してくださった方も、ご希望があれば掲載します。
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

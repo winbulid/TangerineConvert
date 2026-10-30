@@ -212,10 +212,8 @@ Tangerine jest darmowy i taki zostanie.
 Jeśli chcesz go wesprzeć, wybierz sposób, który Ci odpowiada ([Fairy](https://fairy.hada.io/@tangerine) obsługuje koreańskie karty i szybkie płatności).
 
 **Tu może być Twoje imię lub logo.**
-Osoby wspierające co miesiąc wymieniamy tutaj z imienia, a sponsorzy mają swoje logo tutaj i na stronie „O programie” w Tangerine.
 Jeśli wspierasz jednorazowo, też możesz poprosić o wpis.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

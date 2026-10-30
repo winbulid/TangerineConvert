@@ -215,7 +215,6 @@ Tangerine मुफ़्त है और मुफ़्त ही रहे�
 हर महीने सहयोग करने वालों के नाम यहाँ दिए जाते हैं, और स्पॉन्सर का लोगो यहाँ और Tangerine के परिचय पेज पर दिखता है।
 एक बार सहयोग करने वाले भी अपना नाम जोड़ने के लिए कह सकते हैं।
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

@@ -216,7 +216,6 @@ Tangerine 免費，並將一直免費。
 按月贊助者的名字會列在這裡，標誌檔位的標誌會顯示在這裡和 Tangerine 的「關於」頁面。
 一次性贊助的朋友也可以要求列出名字。
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

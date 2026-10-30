@@ -215,7 +215,6 @@ Tangerine бесплатный и останется бесплатным.
 Тех, кто поддерживает проект ежемесячно, мы перечисляем здесь по имени, а логотипы спонсоров размещаем здесь и в разделе «О программе» в Tangerine.
 Если вы помогли разово, тоже можете попросить добавить вас в список.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

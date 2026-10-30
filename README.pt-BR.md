@@ -227,7 +227,6 @@ Se quiser apoiá-lo, escolha o jeito que preferir ([Fairy](https://fairy.hada.io
 Apoiadores mensais aparecem aqui pelo nome, e patrocinadores têm o logotipo aqui e na página Sobre do Tangerine.
 Quem apoia uma única vez também pode pedir para aparecer.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>

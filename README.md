@@ -218,16 +218,13 @@ It connects to the internet only:
 - to download the conversion engines you choose to install, from the official locations pinned in [`engines.json`](src/Tangerine.Engines/Infrastructure/engines.json), and the text recognition (OCR) languages a preset uses, pinned in [`ocr-languages.json`](src/Tangerine.Engines/Infrastructure/ocr-languages.json).
 - when you click a link, which opens your web browser.
 
-## Sponsor
 
 Tangerine is free and stays free.
 If you'd like to support it, pick whichever way suits you ([Fairy](https://fairy.hada.io/@tangerine) takes Korean cards and easy-pay).
 
 **Your name or logo here.**
-Monthly backers are listed here by name, and sponsors get their logo here and on Tangerine's About page.
 One-time supporters can ask to be listed too.
 
-<!-- sponsors: src/Tangerine.App/Assets/Sponsors/sponsors.json -->
 
 <p align="center">
   <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
