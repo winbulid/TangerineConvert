@@ -22,7 +22,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="MIT license"></a>
 </p>
 
-
 <table>
   <tr>
     <td width="33%" valign="top">
@@ -42,11 +41,9 @@
   </tr>
 </table>
 
-
 ## Install
 
 Download from [Releases](https://github.com/winbulid/TangerineConvert/releases/latest).
-
 
 ## Features
 
@@ -69,7 +66,6 @@ Download from [Releases](https://github.com/winbulid/TangerineConvert/releases/l
 - **Recent conversions** on Home, each with a thumbnail: open the result, or open it with another app.
 - **Other ways in**: the right-click menu, a keyboard shortcut, the drop zone and the [`tangerine` command](#command-line).
 - Light and dark themes with your own accent colour and donut opacity, in English, Español, 日本語, 한국어, 简体中文, 繁體中文, Polski, हिन्दी, Русский, العربية (right to left), Português (Brasil), Français, नेपाली, ไทย, Türkçe, Português (Portugal), Deutsch and Italiano.
-
 
 ## Formats
 
@@ -120,16 +116,11 @@ dotnet run --project src/Tangerine.App
 dotnet test
 ```
 
-
-
 ## Code signing policy
 
-
-  - Releases before it, up to 2.0.0, are not signed.
-  - SmartScreen can still warn about a new release until it has been downloaded enough ("More info" → "Run anyway").
-- macOS packages are ad-hoc signed and not notarized.
-- Only files built by this repository's GitHub Actions release workflow are signed, and every release is signed and approved by hand.
-  - Libraries and programs their makers signed (.NET, SkiaSharp, ImageMagick, the Microsoft C++ runtime …) keep their own signatures; bundled ones that come unsigned (rhwp, 7-Zip and most libraries) are signed with Tangerine's certificate, as part of Tangerine.
+- The Windows installer in [Releases](https://github.com/winbulid/TangerineConvert/releases/latest) is built by this repository's GitHub Actions workflow and is **not code-signed** (no certificate).
+- SmartScreen may warn on first run: **More info → Run anyway**.
+- Libraries and programs their makers signed (.NET, SkiaSharp, ImageMagick, the Microsoft C++ runtime …) keep their own signatures.
 
 ### Privacy policy
 
@@ -142,12 +133,7 @@ It connects to the internet only:
 - to download the conversion engines you choose to install, from the official locations pinned in [`engines.json`](src/Tangerine.Engines/Infrastructure/engines.json), and the text recognition (OCR) languages a preset uses, pinned in [`ocr-languages.json`](src/Tangerine.Engines/Infrastructure/ocr-languages.json).
 - when you click a link, which opens your web browser.
 
-
-
 ## License
 
 Bundled third-party components keep their own licenses, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
-<p align="center">
-  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
-</p>
