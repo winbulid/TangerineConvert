@@ -73,8 +73,24 @@ public sealed partial class DonutMenu : Control
     public static readonly StyledProperty<CornerRadius> CornerRadiusProperty =
         AvaloniaProperty.Register<DonutMenu, CornerRadius>(nameof(CornerRadius));
 
+
+    /// <summary>The default slice fill: a subtle vertical porcelain gradient, like the reference wheel.</summary>
+    private static IBrush CreateDefaultSliceBrush()
+    {
+        return new LinearGradientBrush
+        {
+            StartPoint = new RelativePoint(0.5, 0, RelativeUnit.Relative),
+            EndPoint = new RelativePoint(0.5, 1, RelativeUnit.Relative),
+            GradientStops =
+            {
+                new GradientStop(Color.Parse("#EEF1F1"), 0),
+                new GradientStop(Color.Parse("#EBEEEE"), 1),
+            },
+        };
+    }
+
     public static readonly StyledProperty<IBrush?> SliceBrushProperty =
-        AvaloniaProperty.Register<DonutMenu, IBrush?>(nameof(SliceBrush), Brushes.White);
+        AvaloniaProperty.Register<DonutMenu, IBrush?>(nameof(SliceBrush), CreateDefaultSliceBrush());
     public static readonly StyledProperty<IBrush?> SliceBorderBrushProperty =
         AvaloniaProperty.Register<DonutMenu, IBrush?>(nameof(SliceBorderBrush));
     public static readonly StyledProperty<IBrush?> CenterBrushProperty =
