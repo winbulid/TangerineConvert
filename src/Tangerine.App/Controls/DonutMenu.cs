@@ -107,7 +107,7 @@ public sealed partial class DonutMenu : Control
         AvaloniaProperty.Register<DonutMenu, IBrush?>(nameof(DangerBrush), Brushes.IndianRed);
 
     /// <summary>Gap between slices in pixels (keeps the donut "full" while separating slices).</summary>
-    private const double GapPixels = 5;
+    private const double GapPixels = 8;
     private const double PopOut = 0;
     private const double OpenDuration = 0.42;
     private const double OpenStagger = 0.028;
@@ -874,14 +874,20 @@ public sealed partial class DonutMenu : Control
         context.DrawGeometry(new SolidColorBrush(Color.Parse("#E0E0E0")), null, ring);
     }
 
+    /// <summary>The plate behind the slices: shows through the gaps between them, all the way to the hub.</summary>
+    private void DrawBackplate(DrawingContext context, Point center, double r1, double r2)
+    {
+        var plate = CreateRing(center, r1, r2);
+        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E9EBEC")), null, plate);
+    }
+
     /// <summary>The shadow, the slices and the edit mode's drop preview.</summary>
     private void RenderRing(DrawingContext context, Point center, double r1, double r2, int n, Typeface typeface, Typeface typefaceRegular)
     {
         DrawSoftShadow(context, center, r2);
         DrawBezelRing(context, center, r2);
         // The plate behind the slices: shows through the gaps between them, all the way to the hub.
-        var plate = CreateRing(center, r1, r2);
-        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E0E0E0")), null, plate);
+        DrawBackplate(context, center, r1, r2);
 
         if (n == 0)
         {
@@ -1238,7 +1244,7 @@ public sealed partial class DonutMenu : Control
     /// How round the slices' corners are: half the theme's softness (0 to 28), so the largest setting still leaves the
     /// slices clearly apart. <see cref="DonutGeometry.Wedge"/> shrinks it for slices too thin for it.
     /// </summary>
-    internal double SliceCornerRadius => Math.Clamp(CornerRadius.TopLeft * 1.5, 0, 32);
+    internal double SliceCornerRadius => Math.Clamp(CornerRadius.TopLeft * 2.2, 0, 40);
 
     private StreamGeometry CreateWedge(Point c, double r1, double r2, int index, int count) =>
         count == 1 ? CreateRing(c, r1, r2) : CreateWedge(c, r1, r2, DonutGeometry.MidAngle(index, count), DonutGeometry.Span(count));
