@@ -73,7 +73,7 @@
 
 Unmarked formats work out of the box — no Office, Hancom Office or LibreOffice needed.
 
-## ⌨ Command line
+## Command line
 
 The `tangerine` command uses the same engines and presets as the app (Setup or `install.sh` adds it).
 
