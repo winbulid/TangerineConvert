@@ -209,18 +209,12 @@ Tangerine не отправляет ни ваши файлы, ни данные 
 ## Поддержать проект
 
 Tangerine бесплатный и останется бесплатным.
-Если хотите его поддержать, выберите удобный способ ([Fairy](https://fairy.hada.io/@tangerine) принимает корейские карты и платёжные сервисы).
 
 **Здесь может быть ваше имя или логотип.**
 Тех, кто поддерживает проект ежемесячно, мы перечисляем здесь по имени, а логотипы спонсоров размещаем здесь и в разделе «О программе» в Tangerine.
 Если вы помогли разово, тоже можете попросить добавить вас в список.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Лицензия
 

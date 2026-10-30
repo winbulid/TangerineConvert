@@ -221,17 +221,11 @@ Il ne se connecte à Internet que :
 ## Soutenir Tangerine
 
 Tangerine est gratuit et le restera.
-Si vous souhaitez le soutenir, choisissez le moyen qui vous convient ([Fairy](https://fairy.hada.io/@tangerine) accepte les cartes coréennes et le paiement simplifié).
 
 **Votre nom ou votre logo ici.**
 Les soutiens ponctuels peuvent aussi demander à y figurer.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Licence
 

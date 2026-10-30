@@ -170,18 +170,6 @@ It connects to the internet only:
 - when you click a link, which opens your web browser.
 
 
-Tangerine is free and stays free.
-If you'd like to support it, pick whichever way suits you ([Fairy](https://fairy.hada.io/@tangerine) takes Korean cards and easy-pay).
-
-**Your name or logo here.**
-One-time supporters can ask to be listed too.
-
-
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## License
 

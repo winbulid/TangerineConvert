@@ -209,18 +209,12 @@ Tangerine no sube tus archivos ni envía datos de uso.
 ## Patrocinar
 
 Tangerine es gratis y lo seguirá siendo.
-Si quieres apoyarlo, elige la forma que mejor te venga ([Fairy](https://fairy.hada.io/@tangerine) acepta tarjetas coreanas y pagos rápidos).
 
 **Tu nombre o tu logo aquí.**
 Quienes apoyan cada mes aparecen aquí con su nombre, y los patrocinadores tienen su logo aquí y en la página Acerca de de Tangerine.
 Si apoyas con un pago único, también puedes pedir que te incluyamos.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Licencia
 

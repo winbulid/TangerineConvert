@@ -209,18 +209,12 @@ Tangerine आपकी फ़ाइलें अपलोड नहीं कर
 ## स्पॉन्सर करें
 
 Tangerine मुफ़्त है और मुफ़्त ही रहेगा।
-अगर आप इसका साथ देना चाहते हैं, तो जो तरीका आपको ठीक लगे वह चुनें ([Fairy](https://fairy.hada.io/@tangerine) कोरियाई कार्ड और ईज़ी-पे स्वीकार करता है)।
 
 **आपका नाम या लोगो यहाँ।**
 हर महीने सहयोग करने वालों के नाम यहाँ दिए जाते हैं, और स्पॉन्सर का लोगो यहाँ और Tangerine के परिचय पेज पर दिखता है।
 एक बार सहयोग करने वाले भी अपना नाम जोड़ने के लिए कह सकते हैं।
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## लाइसेंस
 

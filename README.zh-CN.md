@@ -209,7 +209,6 @@ Tangerine 不会上传文件，也不会发送任何使用数据。
 ## 赞助
 
 Tangerine 免费，并将一直免费。
-想支持开发的话，选一种方便的方式即可（[Fairy](https://fairy.hada.io/@tangerine) 支持韩国银行卡和简易支付）。
 谢谢！
 
 **你的名字或标志可以出现在这里。**
@@ -217,11 +216,6 @@ Tangerine 免费，并将一直免费。
 一次性赞助的朋友也可以要求列出名字。
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## 许可证
 

@@ -219,18 +219,12 @@ Tangerine ทำการแปลงไฟล์ภายในเครื่�
 
 
 Tangerine ใช้งานได้ฟรีและจะฟรีตลอดไป
-หากคุณต้องการสนับสนุนการพัฒนา สามารถเลือกช่องทางที่สะดวกได้เลย ([Fairy](https://fairy.hada.io/@tangerine) รองรับบัตรเกาหลีและระบบชำระเงินแบบง่ายของเกาหลี)
 
 **ชื่อหรือโลโก้ของคุณอยู่ตรงนี้ได้**
 ผู้สนับสนุนรายเดือนจะได้รับการแสดงชื่อไว้ที่นี่ และผู้สนับสนุนระดับโลโก้จะได้แสดงโลโก้ทั้งที่นี่และในหน้าเกี่ยวกับของ Tangerine
 ผู้ที่สนับสนุนครั้งเดียวก็ขอให้แสดงชื่อได้เช่นกัน
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## สัญญาอนุญาต (License)
 

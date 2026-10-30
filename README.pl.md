@@ -209,17 +209,11 @@ Tangerine nie wysyła Twoich plików ani danych o użytkowaniu.
 ## Wsparcie
 
 Tangerine jest darmowy i taki zostanie.
-Jeśli chcesz go wesprzeć, wybierz sposób, który Ci odpowiada ([Fairy](https://fairy.hada.io/@tangerine) obsługuje koreańskie karty i szybkie płatności).
 
 **Tu może być Twoje imię lub logo.**
 Jeśli wspierasz jednorazowo, też możesz poprosić o wpis.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Licencja
 

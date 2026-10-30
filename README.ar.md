@@ -223,7 +223,6 @@ dotnet test
 ## ادعم المشروع
 
 Tangerine مجاني وسيبقى مجانيًا.
-إذا أردت دعمه، فاختر الطريقة التي تناسبك ([Fairy](https://fairy.hada.io/@tangerine) يقبل البطاقات الكورية وخدمات الدفع السريع).
 
 **اسمك أو شعارك هنا.**
 يُدرَج الداعمون الشهريون هنا بأسمائهم، ويحصل الرعاة على شعارهم هنا وفي صفحة «حول التطبيق» في Tangerine.
@@ -233,9 +232,6 @@ Tangerine مجاني وسيبقى مجانيًا.
 
 
 <p align="center" dir="ltr">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
 </p>
 
 <div dir="rtl">

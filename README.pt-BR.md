@@ -221,18 +221,12 @@ Ele se conecta à internet só:
 ## Patrocínio
 
 O Tangerine é gratuito e continua gratuito.
-Se quiser apoiá-lo, escolha o jeito que preferir ([Fairy](https://fairy.hada.io/@tangerine) aceita cartões coreanos e pagamento fácil).
 
 **Seu nome ou logotipo aqui.**
 Apoiadores mensais aparecem aqui pelo nome, e patrocinadores têm o logotipo aqui e na página Sobre do Tangerine.
 Quem apoia uma única vez também pode pedir para aparecer.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Licença
 

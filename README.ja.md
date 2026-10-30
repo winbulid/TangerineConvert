@@ -212,18 +212,12 @@ Tangerineはファイルをアップロードせず、利用データも送信�
 ## 支援
 
 Tangerineは無料で、これからも無料です。
-応援していただける場合は、ご都合のよい方法をお選びください（[Fairy](https://fairy.hada.io/@tangerine)は韓国のカードと簡単決済に対応しています）。
 
 **ここにあなたのお名前やロゴを。**
 毎月支援してくださる方はここにお名前を、スポンサーの方はこことTangerineの「Tangerineについて」ページにロゴを掲載します。
 一度だけ支援してくださった方も、ご希望があれば掲載します。
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## ライセンス
 

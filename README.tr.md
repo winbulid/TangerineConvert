@@ -221,17 +221,11 @@ Yalnızca şu durumlarda internete bağlanır:
 ## Destek Olun
 
 Tangerine ücretsizdir ve ücretsiz kalacaktır.
-Destek olmak isterseniz size en uygun yöntemi seçebilirsiniz ([Fairy](https://fairy.hada.io/@tangerine) Kore kartlarını ve kolay ödemeyi destekler).
 
 **Adınız veya logonuz burada yer alabilir.**
 Tek seferlik destekçiler de listelenmeyi talep edebilir.
 
 
-<p align="center">
-  <a href="https://ko-fi.com/knifelemon"><img src="https://img.shields.io/badge/Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/knifelemon"><img src="https://img.shields.io/badge/PayPal-002991?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-  <a href="https://fairy.hada.io/@tangerine"><img src="https://img.shields.io/badge/Fairy-2E9E6B?style=for-the-badge" alt="Fairy"></a>
-</p>
 
 ## Lisans
 
