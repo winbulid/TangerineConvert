@@ -858,25 +858,20 @@ public sealed partial class DonutMenu : Control
     }
 
 
-    /// <summary>The thin glassy bezel ring peeking out behind the slices (macOS look).</summary>
+    /// <summary>A soft offset shadow under one slice (cheap: a translated, darkened copy of the wedge).</summary>
+    private void DrawSliceShadow(DrawingContext context, StreamGeometry wedge, double r2)
+    {
+        using (context.PushTransform(Matrix.CreateTranslation(0, 3)))
+        using (context.PushOpacity(0.18))
+            context.DrawGeometry(new SolidColorBrush(Color.Parse("#000000")), null, wedge);
+    }
+
+    /// <summary>The thin bezel ring peeking out behind the slices: flat light gray, like the reference wheel.</summary>
     private void DrawBezelRing(DrawingContext context, Point center, double r2)
     {
         var bezelOuter = r2 + 3;
         var ring = CreateRing(center, r2 - 1, bezelOuter);
-        // Vertical gradient: bright silver on top, darker below — the beveled glass edge.
-        var brush = new LinearGradientBrush
-        {
-            StartPoint = new RelativePoint(0.5, 0, RelativeUnit.Relative),
-            EndPoint = new RelativePoint(0.5, 1, RelativeUnit.Relative),
-            GradientStops =
-            {
-                new GradientStop(Color.Parse("#FDFDFD"), 0),
-                new GradientStop(Color.Parse("#E3E3E3"), 0.45),
-                new GradientStop(Color.Parse("#B9B9B9"), 1),
-            },
-        };
-        using (context.PushOpacity(0.9))
-            context.DrawGeometry(brush, new Pen(new SolidColorBrush(Color.Parse("#A8A8A8")), 0.7), ring);
+        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E0E0E0")), null, ring);
     }
 
     /// <summary>The shadow, the slices and the edit mode's drop preview.</summary>
@@ -886,7 +881,7 @@ public sealed partial class DonutMenu : Control
         DrawBezelRing(context, center, r2);
         // The plate behind the slices: shows through the gaps between them, all the way to the hub.
         var plate = CreateRing(center, r1, r2);
-        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E9EBEC")), null, plate);
+        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E0E0E0")), null, plate);
 
         if (n == 0)
         {
@@ -927,6 +922,8 @@ public sealed partial class DonutMenu : Control
             using (context.PushOpacity(Math.Clamp(open, 0, 1) * (i == _dimmedIndex ? 0.3 : 1)))
             {
                 var wedge = CreateWedge(center, r1, r2, mid, span);
+                // A soft drop shadow under each slice: they float apart, like the reference wheel.
+                DrawSliceShadow(context, wedge, r2);
                 context.DrawGeometry(WithOpacity(SliceBrush, SliceOpacity * (item.IsEnabled ? 1 : 0.55)), BorderPen(), wedge);
 
                 // The accent fades in and out with the highlight (no floor: a floor made it vanish with a jump).
@@ -994,6 +991,17 @@ public sealed partial class DonutMenu : Control
         var pulse = 1 + _centerPulse.Value * 0.06;
         var radius = (r1 - 6) * pulse;
         var cancelHot = _externalCenterHot;
+        // A soft ring shadow around the hub lifts it off the slices.
+        var hubShadowBrush = new RadialGradientBrush
+        {
+            GradientStops =
+            {
+                new GradientStop(Color.FromArgb(0, 0, 0, 0), 0.80),
+                new GradientStop(Color.FromArgb(36, 0, 0, 0), 0.97),
+                new GradientStop(Color.FromArgb(0, 0, 0, 0), 1.0),
+            },
+        };
+        context.DrawEllipse(hubShadowBrush, null, center, radius + 9, radius + 9);
         context.DrawEllipse(CenterBrush, BorderPen(), center, radius, radius);
         if (cancelHot)
             context.DrawEllipse(WithOpacity(DangerBrush, 0.18), null, center, radius, radius);
