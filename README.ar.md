@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/banner-en.jpg" alt="Tangerine: اسحب. أفلت. تم التحويل." width="100%"></a>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/banner-en.jpg" alt="Tangerine: اسحب. أفلت. تم التحويل." width="100%"></a>
 </p>
 
 <p align="center" dir="rtl">
@@ -8,28 +8,24 @@
 </p>
 
 <p align="center" dir="rtl">
-  <a href="https://tangerine.sh"><b>الموقع</b></a> ·
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><b>تنزيل</b></a> ·
-  <a href="https://www.linkedin.com/company/tangerine-sh/"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert"><b>الموقع</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>تنزيل</b></a> ·
   <a href="#التثبيت">التثبيت</a> ·
   <a href="#سطر-الأوامر">سطر الأوامر</a> ·
   <a href="#التطوير">التطوير</a>
 </p>
 
 <p align="center" dir="ltr">
-  <a href="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml"><img src="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><img src="https://img.shields.io/github/v/release/KnifeLemon/Tangerine?color=7F77DD&label=release" alt="أحدث إصدار"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases"><img src="https://img.shields.io/github/downloads/KnifeLemon/Tangerine/total?color=1D9E75" alt="عدد التنزيلات"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3C3489" alt="Windows 10 | 11">
-  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-3C3489" alt="Linux x64 | ARM64">
-  <img src="https://img.shields.io/badge/macOS-preview-534AB7" alt="macOS (إصدار تجريبي)">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6A62C9" alt="ترخيص MIT"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="أحدث إصدار"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="عدد التنزيلات"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-B84116" alt="Linux x64 | ARM64">
+  <img src="https://img.shields.io/badge/macOS-preview-D55223" alt="macOS (إصدار تجريبي)">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="ترخيص MIT"></a>
 </p>
 
 <p align="center" dir="ltr">
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/weekly?language=C%23&v=2" alt="Tangerine: #1 C# repository of the week on Trendshift" width="250" height="55"></a>
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/daily?language=C%23&v=2" alt="Tangerine: #1 C# repository of the day on Trendshift" width="250" height="55"></a>
-  <a href="https://hellogithub.com/repository/KnifeLemon/Tangerine" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0847caedd5bd4077a70b90f83afdf83c&claim_uid=jAlIvVMhn0kcEsU" alt="Featured｜HelloGitHub" width="250" height="54" /></a>
 </p>
 
 <p align="center" dir="ltr">
@@ -74,13 +70,13 @@
 ## شاهده وهو يعمل
 
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/demo-en.webp" alt="سحب trip.jpg مع الضغط على Ctrl: تظهر عند المؤشر قائمة دائرية بالصيغ، ويُفلَت الملف على PNG، فتكتمل حلقة التقدم ويظهر trip.png" width="820"></a><br>
-  <sub>شاهد الفيديو (27 ثانية) وجرّب العرض التفاعلي على <a href="https://tangerine.sh">tangerine.sh</a></sub>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="سحب trip.jpg مع الضغط على Ctrl: تظهر عند المؤشر قائمة دائرية بالصيغ، ويُفلَت الملف على PNG، فتكتمل حلقة التقدم ويظهر trip.png" width="820"></a><br>
+  <sub>شاهد الفيديو (27 ثانية) وجرّب العرض التفاعلي على <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
 </p>
 
 ## التثبيت
 
-نزّله من صفحة [الإصدارات](https://github.com/KnifeLemon/Tangerine/releases/latest).
+نزّله من صفحة [الإصدارات](https://github.com/winbulid/TangerineConvert/releases/latest).
 
 <a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/ar%20dark.svg" alt="Microsoft Store" width="200"></a>
 
@@ -193,7 +189,7 @@ tangerine watch D:\Inbox --to pdf --move-originals
 
 <div dir="rtl">
 
-جميع الأوامر والخيارات: [tangerine.sh/cli](https://tangerine.sh/cli/) أو `tangerine help`.
+جميع الأوامر والخيارات: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) أو `tangerine help`.
 
 ## التطوير
 
@@ -202,7 +198,7 @@ tangerine watch D:\Inbox --to pdf --move-originals
 </div>
 
 ```bash
-git clone https://github.com/KnifeLemon/Tangerine.git
+git clone https://github.com/winbulid/TangerineConvert.git
 cd Tangerine
 pwsh build/fetch-engines.ps1 -Only rhwp,pandoc   # optional engines
 dotnet run --project src/Tangerine.App
@@ -257,5 +253,5 @@ MIT، © 2026 Myeonggu Kim (KnifeLemon) والمساهمون في Tangerine.
 </div>
 
 <p align="center">
-  <a href="https://star-history.com/#KnifeLemon/Tangerine&Date"><img src="https://api.star-history.com/svg?repos=KnifeLemon/Tangerine&type=Date" alt="Star history" width="600"></a>
+  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
 </p>

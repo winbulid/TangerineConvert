@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tangerine.sh/zh-cn/"><img src="docs/media/banner-zh-CN.jpg" alt="Tangerine 拖一下，放一下，转好了。" width="100%"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/zh-cn/"><img src="docs/media/banner-zh-CN.jpg" alt="Tangerine 拖一下，放一下，转好了。" width="100%"></a>
 </p>
 
 <p align="center">
@@ -8,28 +8,24 @@
 </p>
 
 <p align="center">
-  <a href="https://tangerine.sh/zh-cn/"><b>官网</b></a> ·
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><b>下载</b></a> ·
-  <a href="https://www.linkedin.com/company/tangerine-sh/"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/zh-cn/"><b>官网</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>下载</b></a> ·
   <a href="#安装">安装</a> ·
   <a href="#命令行">命令行</a> ·
   <a href="#开发">开发</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml"><img src="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><img src="https://img.shields.io/github/v/release/KnifeLemon/Tangerine?color=7F77DD&label=release" alt="最新版本"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases"><img src="https://img.shields.io/github/downloads/KnifeLemon/Tangerine/total?color=1D9E75" alt="下载次数"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3C3489" alt="Windows 10 | 11">
-  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-3C3489" alt="Linux x64 | ARM64">
-  <img src="https://img.shields.io/badge/macOS-preview-534AB7" alt="macOS 预览版">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6A62C9" alt="MIT 许可证"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="最新版本"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="下载次数"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-B84116" alt="Linux x64 | ARM64">
+  <img src="https://img.shields.io/badge/macOS-preview-D55223" alt="macOS 预览版">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="MIT 许可证"></a>
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/weekly?language=C%23&v=2" alt="Tangerine: #1 C# repository of the week on Trendshift" width="250" height="55"></a>
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/daily?language=C%23&v=2" alt="Tangerine: #1 C# repository of the day on Trendshift" width="250" height="55"></a>
-  <a href="https://hellogithub.com/repository/KnifeLemon/Tangerine" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0847caedd5bd4077a70b90f83afdf83c&claim_uid=jAlIvVMhn0kcEsU" alt="Featured｜HelloGitHub" width="250" height="54" /></a>
 </p>
 
 <p align="center">
@@ -72,13 +68,13 @@
 ## 实际效果
 
 <p align="center">
-  <a href="https://tangerine.sh/zh-cn/"><img src="docs/media/demo-zh-CN.webp" alt="按住 Ctrl 拖动 旅行.jpg，光标处弹出格式圆环，放到 PNG 上，进度环走完后生成 旅行.png" width="820"></a><br>
-  <sub>27 秒视频和可交互演示请访问 <a href="https://tangerine.sh/zh-cn/">tangerine.sh</a></sub>
+  <a href="https://github.com/winbulid/TangerineConvert/zh-cn/"><img src="docs/media/demo-zh-CN.webp" alt="按住 Ctrl 拖动 旅行.jpg，光标处弹出格式圆环，放到 PNG 上，进度环走完后生成 旅行.png" width="820"></a><br>
+  <sub>27 秒视频和可交互演示请访问 <a href="https://github.com/winbulid/TangerineConvert/zh-cn/">tangerine.sh</a></sub>
 </p>
 
 ## 安装
 
-从 [Releases](https://github.com/KnifeLemon/Tangerine/releases/latest) 下载。
+从 [Releases](https://github.com/winbulid/TangerineConvert/releases/latest) 下载。
 
 <a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="Microsoft Store" width="200"></a>
 
@@ -183,14 +179,14 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-全部命令和选项见 [tangerine.sh/zh-cn/cli](https://tangerine.sh/zh-cn/cli/) 或 `tangerine help`。
+全部命令和选项见 [tangerine.sh/zh-cn/cli](https://github.com/winbulid/TangerineConvert/zh-cn/cli/) 或 `tangerine help`。
 
 ## 开发
 
 在 Windows、macOS 或 Linux 上使用 .NET 10 SDK 构建。
 
 ```bash
-git clone https://github.com/KnifeLemon/Tangerine.git
+git clone https://github.com/winbulid/TangerineConvert.git
 cd Tangerine
 pwsh build/fetch-engines.ps1 -Only rhwp,pandoc   # optional engines
 dotnet run --project src/Tangerine.App
@@ -238,5 +234,5 @@ MIT，© 2026 Myeonggu Kim (KnifeLemon) 和 Tangerine 贡献者。
 随附的第三方组件遵循各自的许可证，详见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
 
 <p align="center">
-  <a href="https://star-history.com/#KnifeLemon/Tangerine&Date"><img src="https://api.star-history.com/svg?repos=KnifeLemon/Tangerine&type=Date" alt="Star history" width="600"></a>
+  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
 </p>

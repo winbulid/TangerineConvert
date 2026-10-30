@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/banner-en.jpg" alt="Tangerine: Sürükle. Bırak. Dönüştür." width="100%"></a>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/banner-en.jpg" alt="Tangerine: Sürükle. Bırak. Dönüştür." width="100%"></a>
 </p>
 
 <p align="center">
@@ -8,28 +8,24 @@
 </p>
 
 <p align="center">
-  <a href="https://tangerine.sh"><b>Web Sitesi</b></a> ·
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><b>İndir</b></a> ·
-  <a href="https://www.linkedin.com/company/tangerine-sh/"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert"><b>Web Sitesi</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>İndir</b></a> ·
   <a href="#kurulum">Kurulum</a> ·
   <a href="#komut-satırı">Komut satırı</a> ·
   <a href="#geliştirme">Geliştirme</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml"><img src="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><img src="https://img.shields.io/github/v/release/KnifeLemon/Tangerine?color=7F77DD&label=release" alt="Son sürüm"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases"><img src="https://img.shields.io/github/downloads/KnifeLemon/Tangerine/total?color=1D9E75" alt="İndirmeler"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3C3489" alt="Windows 10 | 11">
-  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-3C3489" alt="Linux x64 | ARM64">
-  <img src="https://img.shields.io/badge/macOS-preview-534AB7" alt="macOS önizleme">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6A62C9" alt="MIT lisansı"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Son sürüm"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="İndirmeler"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-B84116" alt="Linux x64 | ARM64">
+  <img src="https://img.shields.io/badge/macOS-preview-D55223" alt="macOS önizleme">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="MIT lisansı"></a>
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/weekly?language=C%23&v=2" alt="Tangerine: Trendshift'te haftanın #1 C# deposu" width="250" height="55"></a>
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/daily?language=C%23&v=2" alt="Tangerine: Trendshift'te günün #1 C# deposu" width="250" height="55"></a>
-  <a href="https://hellogithub.com/repository/KnifeLemon/Tangerine" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0847caedd5bd4077a70b90f83afdf83c&claim_uid=jAlIvVMhn0kcEsU" alt="Featured｜HelloGitHub" width="250" height="54" /></a>
 </p>
 
 <p align="center">
@@ -72,13 +68,13 @@
 ## Çalışırken görün
 
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/demo-en.webp" alt="Ctrl basılıyken trip.jpg sürükleniyor: imleçte format halkası açılır, dosya PNG üzerine bırakılır, ilerleme halkası tamamlanır ve trip.png görünür" width="820"></a><br>
-  <sub>27 saniyelik videoyu izleyin ve <a href="https://tangerine.sh">tangerine.sh</a> adresindeki etkileşimli demoyu deneyin</sub>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="Ctrl basılıyken trip.jpg sürükleniyor: imleçte format halkası açılır, dosya PNG üzerine bırakılır, ilerleme halkası tamamlanır ve trip.png görünür" width="820"></a><br>
+  <sub>27 saniyelik videoyu izleyin ve <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a> adresindeki etkileşimli demoyu deneyin</sub>
 </p>
 
 ## Kurulum
 
-[Sürümler (Releases)](https://github.com/KnifeLemon/Tangerine/releases/latest) sayfasından indirin.
+[Sürümler (Releases)](https://github.com/winbulid/TangerineConvert/releases/latest) sayfasından indirin.
 
 <a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/tr%20dark.svg" alt="Microsoft Store" width="200"></a>
 
@@ -183,14 +179,14 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Tüm komutlar ve seçenekler: [tangerine.sh/cli](https://tangerine.sh/cli/) veya `tangerine help`.
+Tüm komutlar ve seçenekler: [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) veya `tangerine help`.
 
 ## Geliştirme
 
 Windows, macOS veya Linux üzerinde .NET 10 SDK ile derleyin:
 
 ```bash
-git clone https://github.com/KnifeLemon/Tangerine.git
+git clone https://github.com/winbulid/TangerineConvert.git
 cd Tangerine
 pwsh build/fetch-engines.ps1 -Only rhwp,pandoc   # isteğe bağlı motorlar
 dotnet run --project src/Tangerine.App
@@ -249,5 +245,5 @@ MIT, © 2026 Myeonggu Kim (KnifeLemon) ve Tangerine katkıda bulunanları.
 Paketlenen üçüncü taraf bileşenler, [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) dosyasında listelenen kendi lisanslarını korur.
 
 <p align="center">
-  <a href="https://star-history.com/#KnifeLemon/Tangerine&Date"><img src="https://api.star-history.com/svg?repos=KnifeLemon/Tangerine&type=Date" alt="Star history" width="600"></a>
+  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
 </p>

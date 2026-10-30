@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/banner-en.jpg" alt="Tangerine : Glissez. Déposez. Converti." width="100%"></a>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/banner-en.jpg" alt="Tangerine : Glissez. Déposez. Converti." width="100%"></a>
 </p>
 
 <p align="center">
@@ -8,28 +8,24 @@
 </p>
 
 <p align="center">
-  <a href="https://tangerine.sh"><b>Site web</b></a> ·
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><b>Télécharger</b></a> ·
-  <a href="https://www.linkedin.com/company/tangerine-sh/"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert"><b>Site web</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>Télécharger</b></a> ·
   <a href="#installation">Installation</a> ·
   <a href="#ligne-de-commande">Ligne de commande</a> ·
   <a href="#développement">Développement</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml"><img src="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><img src="https://img.shields.io/github/v/release/KnifeLemon/Tangerine?color=7F77DD&label=release" alt="Dernière version"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases"><img src="https://img.shields.io/github/downloads/KnifeLemon/Tangerine/total?color=1D9E75" alt="Téléchargements"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3C3489" alt="Windows 10 | 11">
-  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-3C3489" alt="Linux x64 | ARM64">
-  <img src="https://img.shields.io/badge/macOS-preview-534AB7" alt="macOS en préversion">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6A62C9" alt="Licence MIT"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="Dernière version"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="Téléchargements"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-B84116" alt="Linux x64 | ARM64">
+  <img src="https://img.shields.io/badge/macOS-preview-D55223" alt="macOS en préversion">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="Licence MIT"></a>
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/weekly?language=C%23&v=2" alt="Tangerine: #1 C# repository of the week on Trendshift" width="250" height="55"></a>
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/daily?language=C%23&v=2" alt="Tangerine: #1 C# repository of the day on Trendshift" width="250" height="55"></a>
-  <a href="https://hellogithub.com/repository/KnifeLemon/Tangerine" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0847caedd5bd4077a70b90f83afdf83c&claim_uid=jAlIvVMhn0kcEsU" alt="Featured｜HelloGitHub" width="250" height="54" /></a>
 </p>
 
 <p align="center">
@@ -72,13 +68,13 @@
 ## Voir Tangerine en action
 
 <p align="center">
-  <a href="https://tangerine.sh"><img src="docs/media/demo-en.webp" alt="On fait glisser trip.jpg en maintenant Ctrl : un menu circulaire de formats s'ouvre sous le curseur, le fichier est déposé sur PNG, un anneau de progression se remplit et trip.png apparaît" width="820"></a><br>
-  <sub>Regardez la vidéo de 27 secondes et essayez la démo interactive sur <a href="https://tangerine.sh">tangerine.sh</a></sub>
+  <a href="https://github.com/winbulid/TangerineConvert"><img src="docs/media/demo-en.webp" alt="On fait glisser trip.jpg en maintenant Ctrl : un menu circulaire de formats s'ouvre sous le curseur, le fichier est déposé sur PNG, un anneau de progression se remplit et trip.png apparaît" width="820"></a><br>
+  <sub>Regardez la vidéo de 27 secondes et essayez la démo interactive sur <a href="https://github.com/winbulid/TangerineConvert">tangerine.sh</a></sub>
 </p>
 
 ## Installation
 
-Téléchargez Tangerine depuis les [Releases](https://github.com/KnifeLemon/Tangerine/releases/latest).
+Téléchargez Tangerine depuis les [Releases](https://github.com/winbulid/TangerineConvert/releases/latest).
 
 <a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/fr%20dark.svg" alt="Microsoft Store" width="200"></a>
 
@@ -183,14 +179,14 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-Toutes les commandes et options : [tangerine.sh/cli](https://tangerine.sh/cli/) ou `tangerine help`.
+Toutes les commandes et options : [tangerine.sh/cli](https://github.com/winbulid/TangerineConvert/cli/) ou `tangerine help`.
 
 ## Développement
 
 Compilez avec le SDK .NET 10 sous Windows, macOS ou Linux :
 
 ```bash
-git clone https://github.com/KnifeLemon/Tangerine.git
+git clone https://github.com/winbulid/TangerineConvert.git
 cd Tangerine
 pwsh build/fetch-engines.ps1 -Only rhwp,pandoc   # optional engines
 dotnet run --project src/Tangerine.App
@@ -249,5 +245,5 @@ MIT, © 2026 Myeonggu Kim (KnifeLemon) et les contributeurs de Tangerine.
 Les composants tiers inclus conservent leurs propres licences, répertoriées dans [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 <p align="center">
-  <a href="https://star-history.com/#KnifeLemon/Tangerine&Date"><img src="https://api.star-history.com/svg?repos=KnifeLemon/Tangerine&type=Date" alt="Star history" width="600"></a>
+  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
 </p>

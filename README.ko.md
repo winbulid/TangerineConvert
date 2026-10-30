@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tangerine.sh/ko/"><img src="docs/media/banner-ko.jpg" alt="Tangerine: 끌어서 놓으면, 변환 끝." width="100%"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/ko/"><img src="docs/media/banner-ko.jpg" alt="Tangerine: 끌어서 놓으면, 변환 끝." width="100%"></a>
 </p>
 
 <p align="center">
@@ -9,28 +9,24 @@
 </p>
 
 <p align="center">
-  <a href="https://tangerine.sh/ko/"><b>웹사이트</b></a> ·
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><b>다운로드</b></a> ·
-  <a href="https://www.linkedin.com/company/tangerine-sh/"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/ko/"><b>웹사이트</b></a> ·
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><b>다운로드</b></a> ·
   <a href="#설치">설치</a> ·
   <a href="#명령줄">명령줄</a> ·
   <a href="#개발">개발</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml"><img src="https://github.com/KnifeLemon/Tangerine/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases/latest"><img src="https://img.shields.io/github/v/release/KnifeLemon/Tangerine?color=7F77DD&label=release" alt="최신 릴리스"></a>
-  <a href="https://github.com/KnifeLemon/Tangerine/releases"><img src="https://img.shields.io/github/downloads/KnifeLemon/Tangerine/total?color=1D9E75" alt="다운로드 수"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3C3489" alt="Windows 10 | 11">
-  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-3C3489" alt="Linux x64 | ARM64">
-  <img src="https://img.shields.io/badge/macOS-preview-534AB7" alt="macOS 미리보기">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6A62C9" alt="MIT 라이선스"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml"><img src="https://github.com/winbulid/TangerineConvert/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases/latest"><img src="https://img.shields.io/github/v/release/winbulid/TangerineConvert?color=F35B28&label=release" alt="최신 릴리스"></a>
+  <a href="https://github.com/winbulid/TangerineConvert/releases"><img src="https://img.shields.io/github/downloads/winbulid/TangerineConvert/total?color=F35B28" alt="다운로드 수"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-B84116" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-x64%20%7C%20ARM64-B84116" alt="Linux x64 | ARM64">
+  <img src="https://img.shields.io/badge/macOS-preview-D55223" alt="macOS 미리보기">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F35B28" alt="MIT 라이선스"></a>
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/weekly?language=C%23&v=2" alt="Tangerine: #1 C# repository of the week on Trendshift" width="250" height="55"></a>
-  <a href="https://trendshift.io/repositories/276987"><img src="https://trendshift.io/api/badge/trendshift/repositories/276987/daily?language=C%23&v=2" alt="Tangerine: #1 C# repository of the day on Trendshift" width="250" height="55"></a>
-  <a href="https://hellogithub.com/repository/KnifeLemon/Tangerine" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0847caedd5bd4077a70b90f83afdf83c&claim_uid=jAlIvVMhn0kcEsU" alt="Featured｜HelloGitHub" width="250" height="54" /></a>
 </p>
 
 <p align="center">
@@ -73,13 +69,13 @@
 ## 이렇게 동작해요
 
 <p align="center">
-  <a href="https://tangerine.sh/ko/"><img src="docs/media/demo-ko.webp" alt="Ctrl을 누른 채 여행사진.jpg를 끌면 커서 위치에 형식 도넛이 열리고, PNG에 놓으면 진행률 링이 차오른 뒤 여행사진.png가 생깁니다" width="820"></a><br>
-  <sub>27초 영상과 직접 해보는 데모는 <a href="https://tangerine.sh/ko/">tangerine.sh</a>에서</sub>
+  <a href="https://github.com/winbulid/TangerineConvert/ko/"><img src="docs/media/demo-ko.webp" alt="Ctrl을 누른 채 여행사진.jpg를 끌면 커서 위치에 형식 도넛이 열리고, PNG에 놓으면 진행률 링이 차오른 뒤 여행사진.png가 생깁니다" width="820"></a><br>
+  <sub>27초 영상과 직접 해보는 데모는 <a href="https://github.com/winbulid/TangerineConvert/ko/">tangerine.sh</a>에서</sub>
 </p>
 
 ## 설치
 
-[릴리스](https://github.com/KnifeLemon/Tangerine/releases/latest)에서 내려받으세요.
+[릴리스](https://github.com/winbulid/TangerineConvert/releases/latest)에서 내려받으세요.
 
 <a href="https://apps.microsoft.com/detail/XPDCN05L89WS0C?referrer=appbadge&cid=github&mode=full"><img src="https://get.microsoft.com/images/ko%20dark.svg" alt="Microsoft Store" width="200"></a>
 
@@ -184,14 +180,14 @@ tangerine convert *.png --to webp --quality 80 -o converted
 tangerine watch D:\Inbox --to pdf --move-originals
 ```
 
-모든 명령과 옵션은 [tangerine.sh/ko/cli](https://tangerine.sh/ko/cli/)나 `tangerine help`에서 볼 수 있어요.
+모든 명령과 옵션은 [tangerine.sh/ko/cli](https://github.com/winbulid/TangerineConvert/ko/cli/)나 `tangerine help`에서 볼 수 있어요.
 
 ## 개발
 
 Windows, macOS, Linux에서 .NET 10 SDK로 빌드해요.
 
 ```bash
-git clone https://github.com/KnifeLemon/Tangerine.git
+git clone https://github.com/winbulid/TangerineConvert.git
 cd Tangerine
 pwsh build/fetch-engines.ps1 -Only rhwp,pandoc   # optional engines
 dotnet run --project src/Tangerine.App
@@ -239,5 +235,5 @@ MIT, © 2026 Myeonggu Kim (KnifeLemon), Tangerine 기여자.
 포함된 서드파티 구성요소는 각자의 라이선스를 따르고, [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)에 정리되어 있어요.
 
 <p align="center">
-  <a href="https://star-history.com/#KnifeLemon/Tangerine&Date"><img src="https://api.star-history.com/svg?repos=KnifeLemon/Tangerine&type=Date" alt="Star history" width="600"></a>
+  <a href="https://star-history.com/#winbulid/TangerineConvert&Date"><img src="https://api.star-history.com/svg?repos=winbulid/TangerineConvert&type=Date" alt="Star history" width="600"></a>
 </p>
