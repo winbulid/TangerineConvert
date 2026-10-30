@@ -157,22 +157,6 @@ public sealed partial class DonutMenu
                Matrix.CreateTranslation(center.X, center.Y);
     }
 
-    internal double ShadowCoverage
-    {
-        get
-        {
-            if (!IsFlipping)
-                return 1;
-            var coverage = 0.0;
-            for (var i = 0; i < Count; i++)
-                coverage += SliceFlipWidth(false, i) * DonutGeometry.Span(Count) / (2 * Math.PI);
-            if (_oldFace is { } old)
-                for (var i = 0; i < old.Length; i++)
-                    coverage += SliceFlipWidth(true, i) * old[i].Span / (2 * Math.PI);
-            return Math.Min(1, coverage);
-        }
-    }
-
     private double Delay(int index, int count)
     {
         if (count == 1 || index == DonutGeometry.IndexAt(FlipOrigin!.Value, count))

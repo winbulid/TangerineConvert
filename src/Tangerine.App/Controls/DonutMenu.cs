@@ -866,29 +866,13 @@ public sealed partial class DonutMenu : Control
             context.DrawGeometry(new SolidColorBrush(Color.Parse("#000000")), null, wedge);
     }
 
-    /// <summary>The thin bezel ring peeking out behind the slices: flat light gray, like the reference wheel.</summary>
-    private void DrawBezelRing(DrawingContext context, Point center, double r2)
-    {
-        var bezelOuter = r2 + 3;
-        var ring = CreateRing(center, r2 - 1, bezelOuter);
-        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E0E0E0")), null, ring);
-    }
 
-    /// <summary>The plate behind the slices: shows through the gaps between them, all the way to the hub.</summary>
-    private void DrawBackplate(DrawingContext context, Point center, double r1, double r2)
-    {
-        var plate = CreateRing(center, r1, r2);
-        context.DrawGeometry(new SolidColorBrush(Color.Parse("#E9EBEC")), null, plate);
-    }
 
     /// <summary>The shadow, the slices and the edit mode's drop preview.</summary>
     private void RenderRing(DrawingContext context, Point center, double r1, double r2, int n, Typeface typeface, Typeface typefaceRegular)
     {
-        DrawSoftShadow(context, center, r2);
-        DrawBezelRing(context, center, r2);
-        // The plate behind the slices: shows through the gaps between them, all the way to the hub.
-        DrawBackplate(context, center, r1, r2);
-
+        // No bezel ring and no backplate: like the reference wheel, the slices float directly on the desktop and the
+        // background shows through the gaps between them. Their own soft shadows define their edges.
         if (n == 0)
         {
             var ring = CreateRing(center, r1, r2);
@@ -971,25 +955,6 @@ public sealed partial class DonutMenu : Control
 
         if (IsEditMode && _previewSpan.Value > 0.01)
             DrawPreview(context, center, r1, r2, typeface, typefaceRegular);
-    }
-
-    private void DrawSoftShadow(DrawingContext context, Point center, double r2)
-    {
-        // A radial gradient ring fakes a soft drop shadow without blur effects (cheap on any GPU).
-        var shadowRadius = r2 + 14;
-        var brush = new RadialGradientBrush
-        {
-            GradientStops =
-            {
-                new GradientStop(Color.FromArgb(0, 0, 0, 0), 0),
-                new GradientStop(Color.FromArgb(0, 0, 0, 0), (r2 - 18) / shadowRadius),
-                new GradientStop(Color.FromArgb(46, 0, 0, 0), (r2 - 2) / shadowRadius),
-                new GradientStop(Color.FromArgb(0, 0, 0, 0), 1),
-            },
-        };
-        var opening = _open.Length == 0 ? 1 : Math.Clamp(_open.Average(), 0, 1);
-        using (context.PushOpacity(opening * ShadowCoverage))
-            context.DrawEllipse(brush, null, new Point(center.X, center.Y + 4), shadowRadius, shadowRadius);
     }
 
     private void DrawCenter(DrawingContext context, Point center, double r1, Typeface bold, Typeface regular)
