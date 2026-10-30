@@ -161,7 +161,7 @@ public sealed partial class SetupViewModel : ObservableObject
     public bool IsUninstalled => Page == SetupPage.Uninstalled;
 
     /// <summary>The progress card shows the "What's new" slides (not for /SILENT or the uninstaller).</summary>
-    public bool ShowShowcase => IsProgress && !Silent && !IsUninstall && Deck is { Slides.Count: > 0 };
+    public bool ShowShowcase => false; // showcase slides removed: plain donut logo instead
 
     [ObservableProperty] private bool _optionsOpen;
     [ObservableProperty] private LanguageItem _selectedLanguage;

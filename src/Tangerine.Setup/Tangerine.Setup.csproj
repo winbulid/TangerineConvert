@@ -59,7 +59,7 @@
     <Compile Include="..\Tangerine.App\Controls\AnimatedImageDecoder.cs" Link="Shared\AnimatedImageDecoder.cs" />
     <Compile Include="..\Tangerine.App\Controls\SlideDeck.cs" Link="Shared\SlideDeck.cs" />
     <Compile Include="..\Tangerine.App\Controls\SlideShow.cs" Link="Shared\SlideShow.cs" />
-    <AvaloniaResource Include="..\Tangerine.App\Assets\WhatsNew\**" Link="Assets\WhatsNew\%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- WhatsNew slides removed: the installer shows the plain donut logo instead -->
     <AvaloniaResource Include="..\Tangerine.App\Styles\Soft.axaml" Link="Styles\Soft.axaml" />
     <AvaloniaResource Include="..\Tangerine.App\Assets\Icons\tangerine.ico" Link="Assets\Icons\tangerine.ico" />
     <AvaloniaResource Include="..\Tangerine.App\Assets\Icons\tangerine.png" Link="Assets\Icons\tangerine.png" />

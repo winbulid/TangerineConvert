@@ -22,7 +22,7 @@ public sealed class DonutLogo : Control
     private static readonly (Geometry Path, IBrush Fill, Vector Offset)[] Slices =
     [
         (Geometry.Parse("M154.61 65.27 A216 216 0 0 1 357.39 65.27 L304.82 164.17 A104 104 0 0 0 207.18 164.17 Z"), Brush("#F35B28"), default),
-        (Geometry.Parse("M373.66 67.74 A222 222 0 0 1 477.86 248.23 L359.94 252.36 A104 104 0 0 0 311.12 167.81 Z"), Brush("#1D9E75"), new Vector(13.86, -8)),
+        (Geometry.Parse("M373.66 67.74 A222 222 0 0 1 477.86 248.23 L359.94 252.36 A104 104 0 0 0 311.12 167.81 Z"), Brush("#FF7A47"), new Vector(13.86, -8)),
         (Geometry.Parse("M471.87 263.56 A216 216 0 0 1 370.48 439.17 L311.12 344.19 A104 104 0 0 0 359.94 259.64 Z"), Brush("#F35B28"), default),
         (Geometry.Parse("M357.39 446.73 A216 216 0 0 1 154.61 446.73 L207.18 347.83 A104 104 0 0 0 304.82 347.83 Z"), Brush("#D55223"), default),
         (Geometry.Parse("M141.52 439.17 A216 216 0 0 1 40.13 263.56 L152.06 259.64 A104 104 0 0 0 200.88 344.19 Z"), Brush("#F35B28"), default),
