@@ -16,7 +16,7 @@ public sealed class SoftBackdrop : Control
         AvaloniaProperty.Register<SoftBackdrop, Color>(nameof(Accent), Color.Parse("#F35B28"));
 
     public static readonly StyledProperty<Color> SecondProperty =
-        AvaloniaProperty.Register<SoftBackdrop, Color>(nameof(Second), Color.Parse("#1D9E75"));
+        AvaloniaProperty.Register<SoftBackdrop, Color>(nameof(Second), Color.Parse("#FF7A47"));
 
     /// <summary>How strong the blobs are (lower in dark mode).</summary>
     public static readonly StyledProperty<double> IntensityProperty =
