@@ -890,7 +890,7 @@ public sealed partial class DonutMenu : Control
             },
         };
         using (context.PushOpacity(0.9))
-            context.DrawGeometry(brush, new Pen(new ImmutableSolidColorBrush(Color.Parse("#A8A8A8")), 0.7), ring);
+            context.DrawGeometry(brush, new Pen(new SolidColorBrush(Color.Parse("#A8A8A8")), 0.7), ring);
     }
 
     /// <summary>The shadow, the slices and the edit mode's drop preview.</summary>
